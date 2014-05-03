@@ -54,7 +54,7 @@ public class PerfMgr {
 		PerfEntityMetricBase[] pValues = perfMgr
 				.queryPerf(new PerfQuerySpec[] { qSpec });
 		if (pValues != null) {
-			getValues(me.getName(), pValues);
+			getValues(me, pValues);
 		}
 	}
 
@@ -83,13 +83,13 @@ public class PerfMgr {
 		return qSpec;
 	}
 
-	private static void getValues(String name, PerfEntityMetricBase[] values) {
+	private static void getValues(ManagedEntity me, PerfEntityMetricBase[] values) {
 		for (int i = 0; i < values.length; ++i) {
-			getPerfMetricCSV(name, (PerfEntityMetricCSV) values[i]);
+			getPerfMetricCSV(me, (PerfEntityMetricCSV) values[i]);
 		}
 	}
 
-	private static void getPerfMetricCSV(String name, PerfEntityMetricCSV pem) {
+	private static void getPerfMetricCSV(ManagedEntity me, PerfEntityMetricCSV pem) {
 		PerfMetricSeriesCSV[] csvs = pem.getValue();
 
 		HashMap<Integer, PerfMetricSeriesCSV> stats = new HashMap<Integer, PerfMetricSeriesCSV>();
@@ -97,7 +97,7 @@ public class PerfMgr {
 		for (int i = 0; i < csvs.length; i++) {
 			stats.put(csvs[i].getId().getCounterId(), csvs[i]);
 		}
-		System.out.println("Log stats " + name);
+		System.out.println("Log stats " + me.getName());
 		for (String counter : Setting.PerfCounters) {
 			Integer counterId = countersMap.get(counter);
 			PerfCounterInfo pci = countersInfoMap.get(counterId);
@@ -105,8 +105,9 @@ public class PerfMgr {
 			if (stats.containsKey(counterId))
 				value = stats.get(counterId).getValue();
 			String message = String.format(
-					"%s %s %s %s %s",
-					name,
+					"%s %s %s %s %s %s",
+					me.getClass().getName(),
+					me.getName(),
 					pci.getKey(),
 					pci.getGroupInfo().getKey() + "."
 							+ pci.getNameInfo().getKey() + "."
