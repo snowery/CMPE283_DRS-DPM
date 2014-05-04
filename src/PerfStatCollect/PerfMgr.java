@@ -1,6 +1,8 @@
 package PerfStatCollect;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -34,10 +36,8 @@ public class PerfMgr {
 		countersMap = new HashMap<String, Integer>();
 		for (int i = 0; i < pcis.length; i++) {
 			countersInfoMap.put(pcis[i].getKey(), pcis[i]);
-			countersMap.put(
-					pcis[i].getGroupInfo().getKey() + "."
-							+ pcis[i].getNameInfo().getKey() + "."
-							+ pcis[i].getRollupType(), pcis[i].getKey());
+			countersMap.put(pcis[i].getGroupInfo().getKey() + "." + pcis[i].getNameInfo().getKey()
+					+ "." + pcis[i].getRollupType(), pcis[i].getKey());
 		}
 
 		pmis = createPerfMetricId(Setting.PerfCounters);
@@ -51,8 +51,7 @@ public class PerfMgr {
 		// only return the latest one sample
 		PerfQuerySpec qSpec = createPerfQuerySpec(me, 1, refreshRate);
 
-		PerfEntityMetricBase[] pValues = perfMgr
-				.queryPerf(new PerfQuerySpec[] { qSpec });
+		PerfEntityMetricBase[] pValues = perfMgr.queryPerf(new PerfQuerySpec[] { qSpec });
 		if (pValues != null) {
 			getValues(me, pValues);
 		}
@@ -69,8 +68,7 @@ public class PerfMgr {
 		return metricIds;
 	}
 
-	private static PerfQuerySpec createPerfQuerySpec(ManagedEntity me,
-			int maxSample, int interval) {
+	private static PerfQuerySpec createPerfQuerySpec(ManagedEntity me, int maxSample, int interval) {
 
 		PerfQuerySpec qSpec = new PerfQuerySpec();
 		qSpec.setEntity(me.getMOR());
@@ -98,36 +96,51 @@ public class PerfMgr {
 			stats.put(csvs[i].getId().getCounterId(), csvs[i]);
 		}
 		System.out.println("Log stats " + me.getName());
+
+		HashMap<String, List<EventEntry>> events = new HashMap<String, List<EventEntry>>();
+
 		for (String counter : Setting.PerfCounters) {
 			Integer counterId = countersMap.get(counter);
 			PerfCounterInfo pci = countersInfoMap.get(counterId);
 			String value = null;
 			if (stats.containsKey(counterId))
 				value = stats.get(counterId).getValue();
-			String message = String.format(
-					"%s %s %s %s %s %s",
-					me.getClass().getName(),
-					me.getName(),
-					pci.getKey(),
-					pci.getGroupInfo().getKey() + "."
-							+ pci.getNameInfo().getKey() + "."
-							+ pci.getRollupType(), pci.getUnitInfo().getKey(),
-					value);
-			logger.info(message);
+
+			EventEntry event = new EventEntry(me, pci, value);
+			String key = event.getEventKey();
+			if (!events.containsKey(key)) {
+				events.put(key, new ArrayList<EventEntry>());
+			}
+			events.get(key).add(event);
+		}
+		
+		//combine event entries by metric type
+		for (String key : events.keySet()) {
+			String message = key + " ";
+			List<EventEntry> lst = events.get(key);
+			for (EventEntry event : lst) {
+				if (event.isValid()) {
+					message += event.toString() + " ";
+				}
+			}
+
+			if (!message.equals(key + " ")) {
+				logger.info(message);
+			}
 		}
 	}
-	
+
 	private static void loggerConfig() {
 		RollingFileAppender fa = new RollingFileAppender();
 		fa.setName("FileLogger");
 		fa.setFile("perf.log");
 		fa.setMaxFileSize("1MB");
 		fa.setMaxBackupIndex(1);
-		fa.setLayout(new PatternLayout("%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"));
+		fa.setLayout(new PatternLayout("%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n"));
 		fa.setThreshold(Level.INFO);
 		fa.setAppend(true);
 		fa.activateOptions();
-		
-		logger.addAppender(fa);		
+
+		logger.addAppender(fa);
 	}
 }

@@ -1,255 +1,3 @@
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.153 2 cpu.usage.average percent 5291
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.153 24 mem.usage.average percent 9071
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.153 125 disk.usage.average kiloBytesPerSecond 489
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.153 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.153 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM04-Lin-Lan 2 cpu.usage.average percent 9937
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM04-Lin-Lan 24 mem.usage.average percent 2908
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM04-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 440
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM04-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM04-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM04-Lin-Lan 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM01-Lin-Lan 2 cpu.usage.average percent 386
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM01-Lin-Lan 24 mem.usage.average percent 1854
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM01-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM01-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM01-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM01-Lin-Lan 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.151 2 cpu.usage.average percent -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.151 24 mem.usage.average percent -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.151 125 disk.usage.average kiloBytesPerSecond -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.151 316 datastore.datastoreReadBytes.latest number -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.151 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.151 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 2 cpu.usage.average percent -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 24 mem.usage.average percent -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 125 disk.usage.average kiloBytesPerSecond -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 312 virtualDisk.readOIO.latest number -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 313 virtualDisk.writeOIO.latest number -1
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.152 2 cpu.usage.average percent 127
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.152 24 mem.usage.average percent 4290
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.152 125 disk.usage.average kiloBytesPerSecond 118
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.152 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.152 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:13:37 INFO  PerfMgr:115 - 130.65.132.152 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.153 2 cpu.usage.average percent 5497
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.153 24 mem.usage.average percent 9067
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.153 125 disk.usage.average kiloBytesPerSecond 1990
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.153 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.153 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM04-Lin-Lan 2 cpu.usage.average percent 9650
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM04-Lin-Lan 24 mem.usage.average percent 2908
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM04-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 1944
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM04-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM04-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM04-Lin-Lan 313 virtualDisk.writeOIO.latest number 1
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM01-Lin-Lan 2 cpu.usage.average percent 427
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM01-Lin-Lan 24 mem.usage.average percent 1636
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM01-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM01-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM01-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM01-Lin-Lan 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.151 2 cpu.usage.average percent 413
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.151 24 mem.usage.average percent 7225
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.151 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.151 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.151 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.151 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 2 cpu.usage.average percent 306
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 24 mem.usage.average percent 299
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.152 2 cpu.usage.average percent 106
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.152 24 mem.usage.average percent 4290
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.152 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.152 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.152 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:00 INFO  PerfMgr:115 - 130.65.132.152 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.153 2 cpu.usage.average percent 5497
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.153 24 mem.usage.average percent 9067
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.153 125 disk.usage.average kiloBytesPerSecond 1990
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.153 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.153 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM04-Lin-Lan 2 cpu.usage.average percent 9650
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM04-Lin-Lan 24 mem.usage.average percent 2908
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM04-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 1944
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM04-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM04-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM04-Lin-Lan 313 virtualDisk.writeOIO.latest number 1
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM01-Lin-Lan 2 cpu.usage.average percent 427
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM01-Lin-Lan 24 mem.usage.average percent 1636
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM01-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM01-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM01-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM01-Lin-Lan 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.151 2 cpu.usage.average percent 413
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.151 24 mem.usage.average percent 7225
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.151 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.151 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.151 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.151 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 2 cpu.usage.average percent 306
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 24 mem.usage.average percent 299
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.152 2 cpu.usage.average percent 106
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.152 24 mem.usage.average percent 4290
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.152 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.152 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.152 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:05 INFO  PerfMgr:115 - 130.65.132.152 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.153 2 cpu.usage.average percent 5340
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.153 24 mem.usage.average percent 9070
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.153 125 disk.usage.average kiloBytesPerSecond 1955
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.153 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.153 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM04-Lin-Lan 2 cpu.usage.average percent -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM04-Lin-Lan 24 mem.usage.average percent -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM04-Lin-Lan 125 disk.usage.average kiloBytesPerSecond -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM04-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM04-Lin-Lan 312 virtualDisk.readOIO.latest number -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM04-Lin-Lan 313 virtualDisk.writeOIO.latest number -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM01-Lin-Lan 2 cpu.usage.average percent -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM01-Lin-Lan 24 mem.usage.average percent -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM01-Lin-Lan 125 disk.usage.average kiloBytesPerSecond -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM01-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM01-Lin-Lan 312 virtualDisk.readOIO.latest number -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM01-Lin-Lan 313 virtualDisk.writeOIO.latest number -1
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.151 2 cpu.usage.average percent 267
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.151 24 mem.usage.average percent 7228
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.151 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.151 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.151 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.151 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 2 cpu.usage.average percent 235
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 24 mem.usage.average percent 299
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.152 2 cpu.usage.average percent 132
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.152 24 mem.usage.average percent 4292
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.152 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.152 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.152 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:34 INFO  PerfMgr:115 - 130.65.132.152 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.153 2 cpu.usage.average percent 5348
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.153 24 mem.usage.average percent 9066
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.153 125 disk.usage.average kiloBytesPerSecond 2243
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.153 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.153 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM04-Lin-Lan 2 cpu.usage.average percent 9786
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM04-Lin-Lan 24 mem.usage.average percent 2792
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM04-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 2217
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM04-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM04-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM04-Lin-Lan 313 virtualDisk.writeOIO.latest number 1
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM01-Lin-Lan 2 cpu.usage.average percent 446
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM01-Lin-Lan 24 mem.usage.average percent 1636
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM01-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM01-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM01-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM01-Lin-Lan 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.151 2 cpu.usage.average percent 324
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.151 24 mem.usage.average percent 7228
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.151 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.151 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.151 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.151 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 2 cpu.usage.average percent 264
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 24 mem.usage.average percent 299
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.152 2 cpu.usage.average percent 243
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.152 24 mem.usage.average percent 4293
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.152 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.152 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.152 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:39 INFO  PerfMgr:115 - 130.65.132.152 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.153 2 cpu.usage.average percent 5348
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.153 24 mem.usage.average percent 9066
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.153 125 disk.usage.average kiloBytesPerSecond 2243
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.153 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.153 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM04-Lin-Lan 2 cpu.usage.average percent 9786
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM04-Lin-Lan 24 mem.usage.average percent 2792
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM04-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 2217
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM04-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM04-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM04-Lin-Lan 313 virtualDisk.writeOIO.latest number 1
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM01-Lin-Lan 2 cpu.usage.average percent 446
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM01-Lin-Lan 24 mem.usage.average percent 1636
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM01-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM01-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM01-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM01-Lin-Lan 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.151 2 cpu.usage.average percent 324
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.151 24 mem.usage.average percent 7228
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.151 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.151 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.151 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.151 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 2 cpu.usage.average percent 264
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 24 mem.usage.average percent 299
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.152 2 cpu.usage.average percent 243
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.152 24 mem.usage.average percent 4293
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.152 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.152 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.152 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:45 INFO  PerfMgr:115 - 130.65.132.152 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.153 2 cpu.usage.average percent 5348
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.153 24 mem.usage.average percent 9066
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.153 125 disk.usage.average kiloBytesPerSecond 2243
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.153 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.153 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM04-Lin-Lan 2 cpu.usage.average percent 9786
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM04-Lin-Lan 24 mem.usage.average percent 2792
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM04-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 2217
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM04-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM04-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM04-Lin-Lan 313 virtualDisk.writeOIO.latest number 1
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM01-Lin-Lan 2 cpu.usage.average percent 446
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM01-Lin-Lan 24 mem.usage.average percent 1636
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM01-Lin-Lan 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM01-Lin-Lan 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM01-Lin-Lan 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM01-Lin-Lan 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.151 2 cpu.usage.average percent 324
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.151 24 mem.usage.average percent 7228
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.151 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.151 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.151 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.151 313 virtualDisk.writeOIO.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 2 cpu.usage.average percent 264
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 24 mem.usage.average percent 299
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 125 disk.usage.average kiloBytesPerSecond 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 316 datastore.datastoreReadBytes.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 312 virtualDisk.readOIO.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - VM03-Lin-Ruiyun 313 virtualDisk.writeOIO.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.152 2 cpu.usage.average percent 243
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.152 24 mem.usage.average percent 4293
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.152 125 disk.usage.average kiloBytesPerSecond 26
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.152 316 datastore.datastoreReadBytes.latest number 0
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.152 312 virtualDisk.readOIO.latest number null
-2014-05-02 22:14:50 INFO  PerfMgr:115 - 130.65.132.152 313 virtualDisk.writeOIO.latest number null
 2014-05-03 16:06:25 INFO  PerfMgr:116 - com.vmware.vim25.mo.HostSystem 130.65.132.152 2 cpu.usage.average percent 9565
 2014-05-03 16:06:25 INFO  PerfMgr:116 - com.vmware.vim25.mo.HostSystem 130.65.132.152 6 cpu.usagemhz.average megaHertz 4579
 2014-05-03 16:06:25 INFO  PerfMgr:116 - com.vmware.vim25.mo.HostSystem 130.65.132.152 24 mem.usage.average percent 9061
@@ -322,3 +70,799 @@
 2014-05-03 16:06:27 INFO  PerfMgr:116 - com.vmware.vim25.mo.HostSystem 130.65.132.153 316 datastore.datastoreReadBytes.latest number 0
 2014-05-03 16:06:27 INFO  PerfMgr:116 - com.vmware.vim25.mo.HostSystem 130.65.132.153 312 virtualDisk.readOIO.latest number null
 2014-05-03 16:06:27 INFO  PerfMgr:116 - com.vmware.vim25.mo.HostSystem 130.65.132.153 313 virtualDisk.writeOIO.latest number null
+2014-05-03 16:32:52 INFO  130.65.132.152 cpu.usage.average percent 6121
+2014-05-03 16:32:52 INFO  130.65.132.152 cpu.usagemhz.average megaHertz 2930
+2014-05-03 16:32:53 INFO  130.65.132.152 mem.usage.average percent 9024
+2014-05-03 16:32:53 INFO  130.65.132.152 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:32:53 INFO  130.65.132.152 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:32:53 INFO  130.65.132.152 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:32:53 INFO  130.65.132.152 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:32:53 INFO  130.65.132.152 virtualDisk.readOIO.latest number null
+2014-05-03 16:32:53 INFO  130.65.132.152 virtualDisk.writeOIO.latest number null
+2014-05-03 16:33:09 INFO  VM02-Lin-Ling cpu.usage.average percent 5217
+2014-05-03 16:33:09 INFO  VM02-Lin-Ling cpu.usagemhz.average megaHertz 1205
+2014-05-03 16:33:09 INFO  VM02-Lin-Ling mem.usage.average percent 1999
+2014-05-03 16:33:09 INFO  VM02-Lin-Ling disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:33:09 INFO  VM02-Lin-Ling disk.read.average kiloBytesPerSecond null
+2014-05-03 16:33:11 INFO  VM02-Lin-Ling disk.write.average kiloBytesPerSecond null
+2014-05-03 16:33:11 INFO  VM02-Lin-Ling datastore.datastoreReadBytes.latest number null
+2014-05-03 16:33:24 INFO  VM02-Lin-Ling virtualDisk.readOIO.latest number 0
+2014-05-03 16:33:24 INFO  VM02-Lin-Ling virtualDisk.writeOIO.latest number 9
+2014-05-03 16:33:26 INFO  VM03-Lin-Ruiyun cpu.usage.average percent 2434
+2014-05-03 16:33:26 INFO  VM03-Lin-Ruiyun cpu.usagemhz.average megaHertz 576
+2014-05-03 16:33:26 INFO  VM03-Lin-Ruiyun mem.usage.average percent 99
+2014-05-03 16:33:26 INFO  VM03-Lin-Ruiyun disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:33:27 INFO  VM03-Lin-Ruiyun disk.read.average kiloBytesPerSecond null
+2014-05-03 16:33:27 INFO  VM03-Lin-Ruiyun disk.write.average kiloBytesPerSecond null
+2014-05-03 16:33:27 INFO  VM03-Lin-Ruiyun datastore.datastoreReadBytes.latest number null
+2014-05-03 16:33:27 INFO  VM03-Lin-Ruiyun virtualDisk.readOIO.latest number 0
+2014-05-03 16:33:27 INFO  VM03-Lin-Ruiyun virtualDisk.writeOIO.latest number 0
+2014-05-03 16:33:28 INFO  VM-Lin-Elasticsearch cpu.usage.average percent 2409
+2014-05-03 16:33:28 INFO  VM-Lin-Elasticsearch cpu.usagemhz.average megaHertz 550
+2014-05-03 16:33:28 INFO  VM-Lin-Elasticsearch mem.usage.average percent 99
+2014-05-03 16:33:28 INFO  VM-Lin-Elasticsearch disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:33:28 INFO  VM-Lin-Elasticsearch disk.read.average kiloBytesPerSecond null
+2014-05-03 16:33:28 INFO  VM-Lin-Elasticsearch disk.write.average kiloBytesPerSecond null
+2014-05-03 16:33:28 INFO  VM-Lin-Elasticsearch datastore.datastoreReadBytes.latest number null
+2014-05-03 16:33:29 INFO  VM-Lin-Elasticsearch virtualDisk.readOIO.latest number 0
+2014-05-03 16:33:29 INFO  VM-Lin-Elasticsearch virtualDisk.writeOIO.latest number 0
+2014-05-03 16:33:43 INFO  130.65.132.151 cpu.usage.average percent 465
+2014-05-03 16:33:43 INFO  130.65.132.151 cpu.usagemhz.average megaHertz 222
+2014-05-03 16:33:43 INFO  130.65.132.151 mem.usage.average percent 4471
+2014-05-03 16:33:43 INFO  130.65.132.151 disk.usage.average kiloBytesPerSecond 0
+2014-05-03 16:33:43 INFO  130.65.132.151 disk.read.average kiloBytesPerSecond 0
+2014-05-03 16:33:43 INFO  130.65.132.151 disk.write.average kiloBytesPerSecond 0
+2014-05-03 16:33:43 INFO  130.65.132.151 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:33:43 INFO  130.65.132.151 virtualDisk.readOIO.latest number null
+2014-05-03 16:33:43 INFO  130.65.132.151 virtualDisk.writeOIO.latest number null
+2014-05-03 16:33:45 INFO  130.65.132.153 cpu.usage.average percent 1390
+2014-05-03 16:33:45 INFO  130.65.132.153 cpu.usagemhz.average megaHertz 665
+2014-05-03 16:33:45 INFO  130.65.132.153 mem.usage.average percent 6329
+2014-05-03 16:33:45 INFO  130.65.132.153 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:33:45 INFO  130.65.132.153 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:33:45 INFO  130.65.132.153 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:33:45 INFO  130.65.132.153 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:33:45 INFO  130.65.132.153 virtualDisk.readOIO.latest number null
+2014-05-03 16:33:46 INFO  130.65.132.153 virtualDisk.writeOIO.latest number null
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan cpu.usage.average percent 761
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan cpu.usagemhz.average megaHertz 178
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan mem.usage.average percent 0
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:33:47 INFO  VM04-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:33:48 INFO  VM04-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:33:50 INFO  VM01-Lin-Lan cpu.usage.average percent 509
+2014-05-03 16:33:50 INFO  VM01-Lin-Lan cpu.usagemhz.average megaHertz 117
+2014-05-03 16:33:51 INFO  VM01-Lin-Lan mem.usage.average percent 199
+2014-05-03 16:33:51 INFO  VM01-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:33:51 INFO  VM01-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:33:51 INFO  VM01-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:33:51 INFO  VM01-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:33:51 INFO  VM01-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:33:51 INFO  VM01-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:33:59 INFO  130.65.132.152 cpu.usage.average percent 4720
+2014-05-03 16:33:59 INFO  130.65.132.152 cpu.usagemhz.average megaHertz 2259
+2014-05-03 16:33:59 INFO  130.65.132.152 mem.usage.average percent 9106
+2014-05-03 16:33:59 INFO  130.65.132.152 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:33:59 INFO  130.65.132.152 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:33:59 INFO  130.65.132.152 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:33:59 INFO  130.65.132.152 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:33:59 INFO  130.65.132.152 virtualDisk.readOIO.latest number null
+2014-05-03 16:33:59 INFO  130.65.132.152 virtualDisk.writeOIO.latest number null
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling cpu.usage.average percent 3667
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling cpu.usagemhz.average megaHertz 840
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling mem.usage.average percent 2099
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:02 INFO  VM02-Lin-Ling virtualDisk.writeOIO.latest number 6
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun cpu.usage.average percent 1801
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun cpu.usagemhz.average megaHertz 425
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun mem.usage.average percent 199
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:03 INFO  VM03-Lin-Ruiyun virtualDisk.writeOIO.latest number 0
+2014-05-03 16:34:04 INFO  VM-Lin-Elasticsearch cpu.usage.average percent 2081
+2014-05-03 16:34:04 INFO  VM-Lin-Elasticsearch cpu.usagemhz.average megaHertz 464
+2014-05-03 16:34:04 INFO  VM-Lin-Elasticsearch mem.usage.average percent 99
+2014-05-03 16:34:04 INFO  VM-Lin-Elasticsearch disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:07 INFO  VM-Lin-Elasticsearch disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:07 INFO  VM-Lin-Elasticsearch disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:07 INFO  VM-Lin-Elasticsearch datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:07 INFO  VM-Lin-Elasticsearch virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:07 INFO  VM-Lin-Elasticsearch virtualDisk.writeOIO.latest number 0
+2014-05-03 16:34:08 INFO  130.65.132.151 cpu.usage.average percent 338
+2014-05-03 16:34:08 INFO  130.65.132.151 cpu.usagemhz.average megaHertz 162
+2014-05-03 16:34:08 INFO  130.65.132.151 mem.usage.average percent 4471
+2014-05-03 16:34:08 INFO  130.65.132.151 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:34:08 INFO  130.65.132.151 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:34:08 INFO  130.65.132.151 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:34:08 INFO  130.65.132.151 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:34:08 INFO  130.65.132.151 virtualDisk.readOIO.latest number null
+2014-05-03 16:34:08 INFO  130.65.132.151 virtualDisk.writeOIO.latest number null
+2014-05-03 16:34:16 INFO  130.65.132.153 cpu.usage.average percent 859
+2014-05-03 16:34:16 INFO  130.65.132.153 cpu.usagemhz.average megaHertz 411
+2014-05-03 16:34:16 INFO  130.65.132.153 mem.usage.average percent 6329
+2014-05-03 16:34:16 INFO  130.65.132.153 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:34:16 INFO  130.65.132.153 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:34:18 INFO  130.65.132.153 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:34:24 INFO  130.65.132.153 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:34:24 INFO  130.65.132.153 virtualDisk.readOIO.latest number null
+2014-05-03 16:34:24 INFO  130.65.132.153 virtualDisk.writeOIO.latest number null
+2014-05-03 16:34:25 INFO  VM04-Lin-Lan cpu.usage.average percent 347
+2014-05-03 16:34:25 INFO  VM04-Lin-Lan cpu.usagemhz.average megaHertz 79
+2014-05-03 16:34:26 INFO  VM04-Lin-Lan mem.usage.average percent 0
+2014-05-03 16:34:26 INFO  VM04-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:26 INFO  VM04-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:27 INFO  VM04-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:27 INFO  VM04-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:27 INFO  VM04-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:27 INFO  VM04-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan cpu.usage.average percent 555
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan cpu.usagemhz.average megaHertz 127
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan mem.usage.average percent 199
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:30 INFO  VM01-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:34:37 INFO  130.65.132.152 cpu.usage.average percent 4120
+2014-05-03 16:34:37 INFO  130.65.132.152 cpu.usagemhz.average megaHertz 1972
+2014-05-03 16:34:38 INFO  130.65.132.152 mem.usage.average percent 8918
+2014-05-03 16:34:38 INFO  130.65.132.152 disk.usage.average kiloBytesPerSecond 0
+2014-05-03 16:34:38 INFO  130.65.132.152 disk.read.average kiloBytesPerSecond 0
+2014-05-03 16:34:38 INFO  130.65.132.152 disk.write.average kiloBytesPerSecond 0
+2014-05-03 16:34:39 INFO  130.65.132.152 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:34:39 INFO  130.65.132.152 virtualDisk.readOIO.latest number null
+2014-05-03 16:34:39 INFO  130.65.132.152 virtualDisk.writeOIO.latest number null
+2014-05-03 16:34:39 INFO  VM02-Lin-Ling cpu.usage.average percent 2526
+2014-05-03 16:34:39 INFO  VM02-Lin-Ling cpu.usagemhz.average megaHertz 568
+2014-05-03 16:34:39 INFO  VM02-Lin-Ling mem.usage.average percent 2099
+2014-05-03 16:34:39 INFO  VM02-Lin-Ling disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:40 INFO  VM02-Lin-Ling disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:40 INFO  VM02-Lin-Ling disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:41 INFO  VM02-Lin-Ling datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:41 INFO  VM02-Lin-Ling virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:41 INFO  VM02-Lin-Ling virtualDisk.writeOIO.latest number 6
+2014-05-03 16:34:42 INFO  VM03-Lin-Ruiyun cpu.usage.average percent 1304
+2014-05-03 16:34:42 INFO  VM03-Lin-Ruiyun cpu.usagemhz.average megaHertz 306
+2014-05-03 16:34:42 INFO  VM03-Lin-Ruiyun mem.usage.average percent 199
+2014-05-03 16:34:42 INFO  VM03-Lin-Ruiyun disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:42 INFO  VM03-Lin-Ruiyun disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:43 INFO  VM03-Lin-Ruiyun disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:43 INFO  VM03-Lin-Ruiyun datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:43 INFO  VM03-Lin-Ruiyun virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:43 INFO  VM03-Lin-Ruiyun virtualDisk.writeOIO.latest number 0
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch cpu.usage.average percent 2935
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch cpu.usagemhz.average megaHertz 678
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch mem.usage.average percent 0
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:43 INFO  VM-Lin-Elasticsearch virtualDisk.writeOIO.latest number 0
+2014-05-03 16:34:44 INFO  130.65.132.151 cpu.usage.average percent 404
+2014-05-03 16:34:44 INFO  130.65.132.151 cpu.usagemhz.average megaHertz 193
+2014-05-03 16:34:44 INFO  130.65.132.151 mem.usage.average percent 4475
+2014-05-03 16:34:44 INFO  130.65.132.151 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:34:44 INFO  130.65.132.151 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:34:44 INFO  130.65.132.151 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:34:44 INFO  130.65.132.151 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:34:44 INFO  130.65.132.151 virtualDisk.readOIO.latest number null
+2014-05-03 16:34:44 INFO  130.65.132.151 virtualDisk.writeOIO.latest number null
+2014-05-03 16:34:45 INFO  130.65.132.153 cpu.usage.average percent 662
+2014-05-03 16:34:46 INFO  130.65.132.153 cpu.usagemhz.average megaHertz 317
+2014-05-03 16:34:49 INFO  130.65.132.153 mem.usage.average percent 6332
+2014-05-03 16:34:49 INFO  130.65.132.153 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:34:49 INFO  130.65.132.153 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:34:49 INFO  130.65.132.153 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:34:50 INFO  130.65.132.153 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:34:50 INFO  130.65.132.153 virtualDisk.readOIO.latest number null
+2014-05-03 16:34:50 INFO  130.65.132.153 virtualDisk.writeOIO.latest number null
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan cpu.usage.average percent 421
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan cpu.usagemhz.average megaHertz 96
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan mem.usage.average percent 99
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:51 INFO  VM04-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan cpu.usage.average percent 295
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan cpu.usagemhz.average megaHertz 65
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan mem.usage.average percent 199
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:34:54 INFO  VM01-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:02 INFO  130.65.132.152 cpu.usage.average percent 2639
+2014-05-03 16:35:02 INFO  130.65.132.152 cpu.usagemhz.average megaHertz 1263
+2014-05-03 16:35:02 INFO  130.65.132.152 mem.usage.average percent 8889
+2014-05-03 16:35:02 INFO  130.65.132.152 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:35:02 INFO  130.65.132.152 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:35:02 INFO  130.65.132.152 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:35:02 INFO  130.65.132.152 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:35:02 INFO  130.65.132.152 virtualDisk.readOIO.latest number null
+2014-05-03 16:35:02 INFO  130.65.132.152 virtualDisk.writeOIO.latest number null
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling cpu.usage.average percent 1563
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling cpu.usagemhz.average megaHertz 343
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling mem.usage.average percent 2999
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:03 INFO  VM02-Lin-Ling virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun cpu.usage.average percent 1029
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun cpu.usagemhz.average megaHertz 242
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun mem.usage.average percent 199
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:03 INFO  VM03-Lin-Ruiyun virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:03 INFO  VM-Lin-Elasticsearch cpu.usage.average percent 1836
+2014-05-03 16:35:03 INFO  VM-Lin-Elasticsearch cpu.usagemhz.average megaHertz 416
+2014-05-03 16:35:03 INFO  VM-Lin-Elasticsearch mem.usage.average percent 0
+2014-05-03 16:35:03 INFO  VM-Lin-Elasticsearch disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:04 INFO  VM-Lin-Elasticsearch disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:04 INFO  VM-Lin-Elasticsearch disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:04 INFO  VM-Lin-Elasticsearch datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:04 INFO  VM-Lin-Elasticsearch virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:04 INFO  VM-Lin-Elasticsearch virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:04 INFO  130.65.132.151 cpu.usage.average percent 436
+2014-05-03 16:35:04 INFO  130.65.132.151 cpu.usagemhz.average megaHertz 209
+2014-05-03 16:35:04 INFO  130.65.132.151 mem.usage.average percent 4475
+2014-05-03 16:35:04 INFO  130.65.132.151 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:35:04 INFO  130.65.132.151 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:35:04 INFO  130.65.132.151 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:35:04 INFO  130.65.132.151 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:35:04 INFO  130.65.132.151 virtualDisk.readOIO.latest number null
+2014-05-03 16:35:04 INFO  130.65.132.151 virtualDisk.writeOIO.latest number null
+2014-05-03 16:35:05 INFO  130.65.132.153 cpu.usage.average percent 909
+2014-05-03 16:35:05 INFO  130.65.132.153 cpu.usagemhz.average megaHertz 435
+2014-05-03 16:35:05 INFO  130.65.132.153 mem.usage.average percent 6328
+2014-05-03 16:35:05 INFO  130.65.132.153 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:35:05 INFO  130.65.132.153 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:35:05 INFO  130.65.132.153 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:35:06 INFO  130.65.132.153 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:35:06 INFO  130.65.132.153 virtualDisk.readOIO.latest number null
+2014-05-03 16:35:06 INFO  130.65.132.153 virtualDisk.writeOIO.latest number null
+2014-05-03 16:35:06 INFO  VM04-Lin-Lan cpu.usage.average percent 344
+2014-05-03 16:35:07 INFO  VM04-Lin-Lan cpu.usagemhz.average megaHertz 79
+2014-05-03 16:35:07 INFO  VM04-Lin-Lan mem.usage.average percent 99
+2014-05-03 16:35:07 INFO  VM04-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:08 INFO  VM04-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:09 INFO  VM04-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:09 INFO  VM04-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:09 INFO  VM04-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:09 INFO  VM04-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan cpu.usage.average percent 557
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan cpu.usagemhz.average megaHertz 129
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan mem.usage.average percent 199
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:12 INFO  VM01-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:17 INFO  130.65.132.152 cpu.usage.average percent 2404
+2014-05-03 16:35:17 INFO  130.65.132.152 cpu.usagemhz.average megaHertz 1150
+2014-05-03 16:35:18 INFO  130.65.132.152 mem.usage.average percent 8891
+2014-05-03 16:35:18 INFO  130.65.132.152 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:35:18 INFO  130.65.132.152 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:35:18 INFO  130.65.132.152 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:35:18 INFO  130.65.132.152 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:35:18 INFO  130.65.132.152 virtualDisk.readOIO.latest number null
+2014-05-03 16:35:18 INFO  130.65.132.152 virtualDisk.writeOIO.latest number null
+2014-05-03 16:35:19 INFO  VM02-Lin-Ling cpu.usage.average percent 1180
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling cpu.usagemhz.average megaHertz 264
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling mem.usage.average percent 2999
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:20 INFO  VM02-Lin-Ling virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:21 INFO  VM03-Lin-Ruiyun cpu.usage.average percent 1278
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun cpu.usagemhz.average megaHertz 302
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun mem.usage.average percent 99
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:22 INFO  VM03-Lin-Ruiyun virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch cpu.usage.average percent 1165
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch cpu.usagemhz.average megaHertz 262
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch mem.usage.average percent 0
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:24 INFO  VM-Lin-Elasticsearch virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:25 INFO  VM-Lin-Elasticsearch virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:25 INFO  130.65.132.151 cpu.usage.average percent 190
+2014-05-03 16:35:25 INFO  130.65.132.151 cpu.usagemhz.average megaHertz 91
+2014-05-03 16:35:25 INFO  130.65.132.151 mem.usage.average percent 4472
+2014-05-03 16:35:26 INFO  130.65.132.151 disk.usage.average kiloBytesPerSecond 0
+2014-05-03 16:35:26 INFO  130.65.132.151 disk.read.average kiloBytesPerSecond 0
+2014-05-03 16:35:26 INFO  130.65.132.151 disk.write.average kiloBytesPerSecond 0
+2014-05-03 16:35:27 INFO  130.65.132.151 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:35:27 INFO  130.65.132.151 virtualDisk.readOIO.latest number null
+2014-05-03 16:35:27 INFO  130.65.132.151 virtualDisk.writeOIO.latest number null
+2014-05-03 16:35:30 INFO  130.65.132.153 cpu.usage.average percent 551
+2014-05-03 16:35:31 INFO  130.65.132.153 cpu.usagemhz.average megaHertz 263
+2014-05-03 16:35:32 INFO  130.65.132.153 mem.usage.average percent 6327
+2014-05-03 16:35:32 INFO  130.65.132.153 disk.usage.average kiloBytesPerSecond 0
+2014-05-03 16:35:32 INFO  130.65.132.153 disk.read.average kiloBytesPerSecond 0
+2014-05-03 16:35:33 INFO  130.65.132.153 disk.write.average kiloBytesPerSecond 0
+2014-05-03 16:35:33 INFO  130.65.132.153 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:35:33 INFO  130.65.132.153 virtualDisk.readOIO.latest number null
+2014-05-03 16:35:33 INFO  130.65.132.153 virtualDisk.writeOIO.latest number null
+2014-05-03 16:35:47 INFO  VM04-Lin-Lan cpu.usage.average percent 356
+2014-05-03 16:35:47 INFO  VM04-Lin-Lan cpu.usagemhz.average megaHertz 81
+2014-05-03 16:35:48 INFO  VM04-Lin-Lan mem.usage.average percent 99
+2014-05-03 16:35:48 INFO  VM04-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:48 INFO  VM04-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:48 INFO  VM04-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:48 INFO  VM04-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:48 INFO  VM04-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:48 INFO  VM04-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:49 INFO  VM01-Lin-Lan cpu.usage.average percent 275
+2014-05-03 16:35:49 INFO  VM01-Lin-Lan cpu.usagemhz.average megaHertz 61
+2014-05-03 16:35:49 INFO  VM01-Lin-Lan mem.usage.average percent 299
+2014-05-03 16:35:50 INFO  VM01-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:35:50 INFO  VM01-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:35:50 INFO  VM01-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:35:51 INFO  VM01-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:35:51 INFO  VM01-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:35:51 INFO  VM01-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 16:35:59 INFO  130.65.132.152 cpu.usage.average percent 2809
+2014-05-03 16:35:59 INFO  130.65.132.152 cpu.usagemhz.average megaHertz 1344
+2014-05-03 16:35:59 INFO  130.65.132.152 mem.usage.average percent 8877
+2014-05-03 16:35:59 INFO  130.65.132.152 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:35:59 INFO  130.65.132.152 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:35:59 INFO  130.65.132.152 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:35:59 INFO  130.65.132.152 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:35:59 INFO  130.65.132.152 virtualDisk.readOIO.latest number null
+2014-05-03 16:35:59 INFO  130.65.132.152 virtualDisk.writeOIO.latest number null
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling cpu.usage.average percent 1489
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling cpu.usagemhz.average megaHertz 336
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling mem.usage.average percent 3299
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling disk.read.average kiloBytesPerSecond null
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling disk.write.average kiloBytesPerSecond null
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling datastore.datastoreReadBytes.latest number null
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling virtualDisk.readOIO.latest number 0
+2014-05-03 16:36:11 INFO  VM02-Lin-Ling virtualDisk.writeOIO.latest number 0
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun cpu.usage.average percent 1134
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun cpu.usagemhz.average megaHertz 267
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun mem.usage.average percent 99
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun disk.read.average kiloBytesPerSecond null
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun disk.write.average kiloBytesPerSecond null
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun datastore.datastoreReadBytes.latest number null
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun virtualDisk.readOIO.latest number 0
+2014-05-03 16:36:12 INFO  VM03-Lin-Ruiyun virtualDisk.writeOIO.latest number 0
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch cpu.usage.average percent 1230
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch cpu.usagemhz.average megaHertz 275
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch mem.usage.average percent 99
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch disk.read.average kiloBytesPerSecond null
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch disk.write.average kiloBytesPerSecond null
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch datastore.datastoreReadBytes.latest number null
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch virtualDisk.readOIO.latest number 0
+2014-05-03 16:36:12 INFO  VM-Lin-Elasticsearch virtualDisk.writeOIO.latest number 0
+2014-05-03 16:36:12 INFO  130.65.132.151 cpu.usage.average percent 197
+2014-05-03 16:36:13 INFO  130.65.132.151 cpu.usagemhz.average megaHertz 94
+2014-05-03 16:36:13 INFO  130.65.132.151 mem.usage.average percent 4472
+2014-05-03 16:36:13 INFO  130.65.132.151 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:36:13 INFO  130.65.132.151 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:36:13 INFO  130.65.132.151 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:36:13 INFO  130.65.132.151 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:36:13 INFO  130.65.132.151 virtualDisk.readOIO.latest number null
+2014-05-03 16:36:13 INFO  130.65.132.151 virtualDisk.writeOIO.latest number null
+2014-05-03 16:36:21 INFO  130.65.132.153 cpu.usage.average percent 542
+2014-05-03 16:36:21 INFO  130.65.132.153 cpu.usagemhz.average megaHertz 259
+2014-05-03 16:36:21 INFO  130.65.132.153 mem.usage.average percent 6330
+2014-05-03 16:36:21 INFO  130.65.132.153 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 16:36:21 INFO  130.65.132.153 disk.read.average kiloBytesPerSecond 12
+2014-05-03 16:36:21 INFO  130.65.132.153 disk.write.average kiloBytesPerSecond 13
+2014-05-03 16:36:21 INFO  130.65.132.153 datastore.datastoreReadBytes.latest number 0
+2014-05-03 16:36:21 INFO  130.65.132.153 virtualDisk.readOIO.latest number null
+2014-05-03 16:36:21 INFO  130.65.132.153 virtualDisk.writeOIO.latest number null
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan cpu.usage.average percent 281
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan cpu.usagemhz.average megaHertz 64
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan mem.usage.average percent 99
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan disk.usage.average kiloBytesPerSecond null
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan disk.read.average kiloBytesPerSecond null
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan disk.write.average kiloBytesPerSecond null
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan datastore.datastoreReadBytes.latest number null
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 16:36:22 INFO  VM04-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 17:12:08 INFO  java.util.MissingFormatArgumentException: Format specifier 's'
+2014-05-03 17:12:13 INFO  java.util.MissingFormatArgumentException: Format specifier 's'
+2014-05-03 17:12:15 INFO  java.util.MissingFormatArgumentException: Format specifier 's'
+2014-05-03 17:12:18 INFO  java.util.MissingFormatArgumentException: Format specifier 's'
+2014-05-03 17:12:20 INFO  java.util.MissingFormatArgumentException: Format specifier 's'
+2014-05-03 17:12:23 INFO  java.util.MissingFormatArgumentException: Format specifier 's'
+2014-05-03 17:12:26 INFO  java.util.MissingFormatArgumentException: Format specifier 's'
+2014-05-03 17:18:13 INFO  HostSystem 130.65.132.152 cpu.usage.average percent 449
+2014-05-03 17:18:13 INFO  HostSystem 130.65.132.152 cpu.usagemhz.average megaHertz 215
+2014-05-03 17:18:13 INFO  HostSystem 130.65.132.152 mem.usage.average percent 7436
+2014-05-03 17:18:13 INFO  HostSystem 130.65.132.152 disk.usage.average kiloBytesPerSecond 32
+2014-05-03 17:18:13 INFO  HostSystem 130.65.132.152 disk.read.average kiloBytesPerSecond 12
+2014-05-03 17:18:13 INFO  HostSystem 130.65.132.152 disk.write.average kiloBytesPerSecond 19
+2014-05-03 17:18:13 INFO  HostSystem 130.65.132.152 datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:14 INFO  HostSystem 130.65.132.152 virtualDisk.readOIO.latest number 0
+2014-05-03 17:18:14 INFO  HostSystem 130.65.132.152 virtualDisk.writeOIO.latest number 0
+2014-05-03 17:18:15 INFO  VirtualMachine VM02-Lin-Ling cpu.usage.average percent 345
+2014-05-03 17:18:15 INFO  VirtualMachine VM02-Lin-Ling cpu.usagemhz.average megaHertz 76
+2014-05-03 17:18:15 INFO  VirtualMachine VM02-Lin-Ling mem.usage.average percent 199
+2014-05-03 17:18:16 INFO  VirtualMachine VM02-Lin-Ling disk.usage.average kiloBytesPerSecond 0
+2014-05-03 17:18:16 INFO  VirtualMachine VM02-Lin-Ling disk.read.average kiloBytesPerSecond 0
+2014-05-03 17:18:17 INFO  VirtualMachine VM02-Lin-Ling disk.write.average kiloBytesPerSecond 0
+2014-05-03 17:18:17 INFO  VirtualMachine VM02-Lin-Ling datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:17 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.readOIO.latest number 0
+2014-05-03 17:18:17 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.writeOIO.latest number 0
+2014-05-03 17:18:19 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usage.average percent -1
+2014-05-03 17:18:19 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usagemhz.average megaHertz -1
+2014-05-03 17:18:19 INFO  VirtualMachine VM03-Lin-Ruiyun mem.usage.average percent -1
+2014-05-03 17:18:19 INFO  VirtualMachine VM03-Lin-Ruiyun disk.usage.average kiloBytesPerSecond 0
+2014-05-03 17:18:19 INFO  VirtualMachine VM03-Lin-Ruiyun disk.read.average kiloBytesPerSecond 0
+2014-05-03 17:18:20 INFO  VirtualMachine VM03-Lin-Ruiyun disk.write.average kiloBytesPerSecond 0
+2014-05-03 17:18:20 INFO  VirtualMachine VM03-Lin-Ruiyun datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:20 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.readOIO.latest number -1
+2014-05-03 17:18:20 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.writeOIO.latest number -1
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch cpu.usage.average percent -1
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch cpu.usagemhz.average megaHertz -1
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch mem.usage.average percent -1
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch disk.usage.average kiloBytesPerSecond 0
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch disk.read.average kiloBytesPerSecond 0
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch disk.write.average kiloBytesPerSecond 0
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch virtualDisk.readOIO.latest number -1
+2014-05-03 17:18:21 INFO  VirtualMachine VM-Lin-Elasticsearch virtualDisk.writeOIO.latest number -1
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 cpu.usage.average percent 267
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 cpu.usagemhz.average megaHertz 127
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 mem.usage.average percent 4474
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 disk.usage.average kiloBytesPerSecond 26
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 disk.read.average kiloBytesPerSecond 12
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 disk.write.average kiloBytesPerSecond 13
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:21 INFO  HostSystem 130.65.132.151 virtualDisk.readOIO.latest number 0
+2014-05-03 17:18:22 INFO  HostSystem 130.65.132.151 virtualDisk.writeOIO.latest number 0
+2014-05-03 17:18:24 INFO  HostSystem 130.65.132.153 cpu.usage.average percent 245
+2014-05-03 17:18:24 INFO  HostSystem 130.65.132.153 cpu.usagemhz.average megaHertz 117
+2014-05-03 17:18:25 INFO  HostSystem 130.65.132.153 mem.usage.average percent 5338
+2014-05-03 17:18:25 INFO  HostSystem 130.65.132.153 disk.usage.average kiloBytesPerSecond 0
+2014-05-03 17:18:25 INFO  HostSystem 130.65.132.153 disk.read.average kiloBytesPerSecond 0
+2014-05-03 17:18:25 INFO  HostSystem 130.65.132.153 disk.write.average kiloBytesPerSecond 0
+2014-05-03 17:18:27 INFO  HostSystem 130.65.132.153 datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:27 INFO  HostSystem 130.65.132.153 virtualDisk.readOIO.latest number 0
+2014-05-03 17:18:27 INFO  HostSystem 130.65.132.153 virtualDisk.writeOIO.latest number 0
+2014-05-03 17:18:28 INFO  VirtualMachine VM04-Lin-Lan cpu.usage.average percent -1
+2014-05-03 17:18:28 INFO  VirtualMachine VM04-Lin-Lan cpu.usagemhz.average megaHertz -1
+2014-05-03 17:18:28 INFO  VirtualMachine VM04-Lin-Lan mem.usage.average percent -1
+2014-05-03 17:18:28 INFO  VirtualMachine VM04-Lin-Lan disk.usage.average kiloBytesPerSecond 0
+2014-05-03 17:18:28 INFO  VirtualMachine VM04-Lin-Lan disk.read.average kiloBytesPerSecond 0
+2014-05-03 17:18:29 INFO  VirtualMachine VM04-Lin-Lan disk.write.average kiloBytesPerSecond 0
+2014-05-03 17:18:29 INFO  VirtualMachine VM04-Lin-Lan datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:29 INFO  VirtualMachine VM04-Lin-Lan virtualDisk.readOIO.latest number -1
+2014-05-03 17:18:29 INFO  VirtualMachine VM04-Lin-Lan virtualDisk.writeOIO.latest number -1
+2014-05-03 17:18:29 INFO  VirtualMachine VM01-Lin-Lan cpu.usage.average percent 188
+2014-05-03 17:18:29 INFO  VirtualMachine VM01-Lin-Lan cpu.usagemhz.average megaHertz 41
+2014-05-03 17:18:30 INFO  VirtualMachine VM01-Lin-Lan mem.usage.average percent 199
+2014-05-03 17:18:30 INFO  VirtualMachine VM01-Lin-Lan disk.usage.average kiloBytesPerSecond 0
+2014-05-03 17:18:30 INFO  VirtualMachine VM01-Lin-Lan disk.read.average kiloBytesPerSecond 0
+2014-05-03 17:18:31 INFO  VirtualMachine VM01-Lin-Lan disk.write.average kiloBytesPerSecond 0
+2014-05-03 17:18:31 INFO  VirtualMachine VM01-Lin-Lan datastore.datastoreReadBytes.latest number 0
+2014-05-03 17:18:31 INFO  VirtualMachine VM01-Lin-Lan virtualDisk.readOIO.latest number 0
+2014-05-03 17:18:31 INFO  VirtualMachine VM01-Lin-Lan virtualDisk.writeOIO.latest number 0
+2014-05-03 17:24:07 INFO  HostSystem 130.65.132.152 cpu.usage percent 255
+2014-05-03 17:24:07 INFO  HostSystem 130.65.132.152 cpu.usagemhz megaHertz 122
+2014-05-03 17:24:07 INFO  HostSystem 130.65.132.152 mem.usage percent 7551
+2014-05-03 17:24:07 INFO  HostSystem 130.65.132.152 disk.read kiloBytesPerSecond 12
+2014-05-03 17:24:07 INFO  HostSystem 130.65.132.152 disk.write kiloBytesPerSecond 13
+2014-05-03 17:24:07 INFO  VirtualMachine VM02-Lin-Ling cpu.usage percent 269
+2014-05-03 17:24:07 INFO  VirtualMachine VM02-Lin-Ling cpu.usagemhz megaHertz 60
+2014-05-03 17:24:08 INFO  VirtualMachine VM02-Lin-Ling mem.usage percent 199
+2014-05-03 17:24:08 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.readOIO number 0
+2014-05-03 17:24:08 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.writeOIO number 0
+2014-05-03 17:24:08 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usage percent -1
+2014-05-03 17:24:08 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usagemhz megaHertz -1
+2014-05-03 17:24:08 INFO  VirtualMachine VM03-Lin-Ruiyun mem.usage percent -1
+2014-05-03 17:24:08 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.readOIO number -1
+2014-05-03 17:24:08 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.writeOIO number -1
+2014-05-03 17:24:09 INFO  VirtualMachine VM-Lin-Elasticsearch cpu.usage percent -1
+2014-05-03 17:24:09 INFO  VirtualMachine VM-Lin-Elasticsearch cpu.usagemhz megaHertz -1
+2014-05-03 17:24:09 INFO  VirtualMachine VM-Lin-Elasticsearch mem.usage percent -1
+2014-05-03 17:24:09 INFO  VirtualMachine VM-Lin-Elasticsearch virtualDisk.readOIO number -1
+2014-05-03 17:24:09 INFO  VirtualMachine VM-Lin-Elasticsearch virtualDisk.writeOIO number -1
+2014-05-03 17:24:09 INFO  HostSystem 130.65.132.151 cpu.usage percent 140
+2014-05-03 17:24:09 INFO  HostSystem 130.65.132.151 cpu.usagemhz megaHertz 67
+2014-05-03 17:24:09 INFO  HostSystem 130.65.132.151 mem.usage percent 4472
+2014-05-03 17:24:09 INFO  HostSystem 130.65.132.151 disk.read kiloBytesPerSecond 12
+2014-05-03 17:24:09 INFO  HostSystem 130.65.132.151 disk.write kiloBytesPerSecond 13
+2014-05-03 17:24:10 INFO  HostSystem 130.65.132.153 cpu.usage percent 216
+2014-05-03 17:24:10 INFO  HostSystem 130.65.132.153 cpu.usagemhz megaHertz 103
+2014-05-03 17:24:10 INFO  HostSystem 130.65.132.153 mem.usage percent 5345
+2014-05-03 17:24:10 INFO  HostSystem 130.65.132.153 disk.read kiloBytesPerSecond 12
+2014-05-03 17:24:10 INFO  HostSystem 130.65.132.153 disk.write kiloBytesPerSecond 13
+2014-05-03 17:24:10 INFO  VirtualMachine VM04-Lin-Lan cpu.usage percent -1
+2014-05-03 17:24:10 INFO  VirtualMachine VM04-Lin-Lan cpu.usagemhz megaHertz -1
+2014-05-03 17:24:10 INFO  VirtualMachine VM04-Lin-Lan mem.usage percent -1
+2014-05-03 17:24:10 INFO  VirtualMachine VM04-Lin-Lan virtualDisk.readOIO number -1
+2014-05-03 17:24:10 INFO  VirtualMachine VM04-Lin-Lan virtualDisk.writeOIO number -1
+2014-05-03 17:24:11 INFO  VirtualMachine VM01-Lin-Lan cpu.usage percent 227
+2014-05-03 17:24:11 INFO  VirtualMachine VM01-Lin-Lan cpu.usagemhz megaHertz 51
+2014-05-03 17:24:11 INFO  VirtualMachine VM01-Lin-Lan mem.usage percent 199
+2014-05-03 17:24:11 INFO  VirtualMachine VM01-Lin-Lan virtualDisk.readOIO number 0
+2014-05-03 17:24:11 INFO  VirtualMachine VM01-Lin-Lan virtualDisk.writeOIO number 0
+2014-05-03 17:24:19 INFO  HostSystem 130.65.132.152 cpu.usage percent 255
+2014-05-03 17:24:19 INFO  HostSystem 130.65.132.152 cpu.usagemhz megaHertz 122
+2014-05-03 17:24:19 INFO  HostSystem 130.65.132.152 mem.usage percent 7551
+2014-05-03 17:24:19 INFO  HostSystem 130.65.132.152 disk.read kiloBytesPerSecond 12
+2014-05-03 17:24:19 INFO  HostSystem 130.65.132.152 disk.write kiloBytesPerSecond 13
+2014-05-03 17:24:19 INFO  VirtualMachine VM02-Lin-Ling cpu.usage percent 269
+2014-05-03 17:24:20 INFO  VirtualMachine VM02-Lin-Ling cpu.usagemhz megaHertz 60
+2014-05-03 17:24:20 INFO  VirtualMachine VM02-Lin-Ling mem.usage percent 199
+2014-05-03 17:24:20 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.readOIO number 0
+2014-05-03 17:24:20 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.writeOIO number 0
+2014-05-03 17:24:21 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usage percent -1
+2014-05-03 17:24:21 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usagemhz megaHertz -1
+2014-05-03 17:24:21 INFO  VirtualMachine VM03-Lin-Ruiyun mem.usage percent -1
+2014-05-03 17:24:21 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.readOIO number -1
+2014-05-03 17:24:21 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.writeOIO number -1
+2014-05-03 17:26:02 INFO  HostSystem 130.65.132.152 cpu.usage percent 291
+2014-05-03 17:26:04 INFO  HostSystem 130.65.132.152 cpu.usagemhz megaHertz 139
+2014-05-03 17:26:06 INFO  HostSystem 130.65.132.152 mem.usage percent 7580
+2014-05-03 17:26:09 INFO  HostSystem 130.65.132.152 disk.read kiloBytesPerSecond 12
+2014-05-03 17:26:10 INFO  HostSystem 130.65.132.152 disk.write kiloBytesPerSecond 13
+2014-05-03 17:26:16 INFO  VirtualMachine VM02-Lin-Ling cpu.usage percent 297
+2014-05-03 17:26:18 INFO  VirtualMachine VM02-Lin-Ling cpu.usagemhz megaHertz 66
+2014-05-03 17:26:20 INFO  VirtualMachine VM02-Lin-Ling mem.usage percent 199
+2014-05-03 17:26:38 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.readOIO number 0
+2014-05-03 17:26:40 INFO  VirtualMachine VM02-Lin-Ling virtualDisk.writeOIO number 0
+2014-05-03 17:26:42 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usage percent -1
+2014-05-03 17:26:48 INFO  VirtualMachine VM03-Lin-Ruiyun cpu.usagemhz megaHertz -1
+2014-05-03 17:26:48 INFO  VirtualMachine VM03-Lin-Ruiyun mem.usage percent -1
+2014-05-03 17:26:48 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.readOIO number -1
+2014-05-03 17:26:48 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk.writeOIO number -1
+2014-05-03 17:26:50 INFO  VirtualMachine VM-Lin-Elasticsearch cpu.usage percent -1
+2014-05-03 17:26:50 INFO  VirtualMachine VM-Lin-Elasticsearch cpu.usagemhz megaHertz -1
+2014-05-03 17:26:51 INFO  VirtualMachine VM-Lin-Elasticsearch mem.usage percent -1
+2014-05-03 17:26:51 INFO  VirtualMachine VM-Lin-Elasticsearch virtualDisk.readOIO number -1
+2014-05-03 17:26:51 INFO  VirtualMachine VM-Lin-Elasticsearch virtualDisk.writeOIO number -1
+2014-05-03 17:26:52 INFO  HostSystem 130.65.132.151 cpu.usage percent 83
+2014-05-03 17:26:53 INFO  HostSystem 130.65.132.151 cpu.usagemhz megaHertz 39
+2014-05-03 17:26:53 INFO  HostSystem 130.65.132.151 mem.usage percent 4472
+2014-05-03 17:26:53 INFO  HostSystem 130.65.132.151 disk.read kiloBytesPerSecond 12
+2014-05-03 17:26:53 INFO  HostSystem 130.65.132.151 disk.write kiloBytesPerSecond 13
+2014-05-03 17:26:54 INFO  HostSystem 130.65.132.153 cpu.usage percent 263
+2014-05-03 17:26:54 INFO  HostSystem 130.65.132.153 cpu.usagemhz megaHertz 126
+2014-05-03 17:26:54 INFO  HostSystem 130.65.132.153 mem.usage percent 5349
+2014-05-03 17:26:54 INFO  HostSystem 130.65.132.153 disk.read kiloBytesPerSecond 12
+2014-05-03 18:08:30 INFO  cpu.usage percent 297
+2014-05-03 18:08:30 INFO  cpu.usagemhz megaHertz 142
+2014-05-03 18:08:30 INFO  mem.usage percent 7695
+2014-05-03 18:08:30 INFO  disk.read kiloBytesPerSecond 0
+2014-05-03 18:08:30 INFO  disk.write kiloBytesPerSecond 0
+2014-05-03 18:08:30 INFO  virtualDisk.readOIO number null
+2014-05-03 18:08:30 INFO  virtualDisk.writeOIO number null
+2014-05-03 18:10:06 INFO  cpu.usage percent 586
+2014-05-03 18:10:06 INFO  cpu.usagemhz megaHertz 280
+2014-05-03 18:10:06 INFO  mem.usage percent 7702
+2014-05-03 18:10:07 INFO  disk.read kiloBytesPerSecond 12
+2014-05-03 18:10:08 INFO  disk.write kiloBytesPerSecond 13
+2014-05-03 18:10:08 INFO  virtualDisk.readOIO number null
+2014-05-03 18:10:08 INFO  virtualDisk.writeOIO number null
+2014-05-03 18:12:57 INFO  cpu.usage percent 259
+2014-05-03 18:12:57 INFO  cpu.usagemhz megaHertz 124
+2014-05-03 18:12:57 INFO  mem.usage percent 7702
+2014-05-03 18:12:57 INFO  disk.read kiloBytesPerSecond 12
+2014-05-03 18:12:57 INFO  disk.write kiloBytesPerSecond 13
+2014-05-03 18:12:57 INFO  virtualDisk.readOIO number null
+2014-05-03 18:12:57 INFO  virtualDisk.writeOIO number null
+2014-05-03 18:13:59 INFO  HostSystem 130.65.132.152 virtualDisk 
+2014-05-03 18:13:59 INFO  HostSystem 130.65.132.152 mem mem.usage percent 7698 
+2014-05-03 18:13:59 INFO  HostSystem 130.65.132.152 disk disk.read kiloBytesPerSecond 12 disk.write kiloBytesPerSecond 13 
+2014-05-03 18:13:59 INFO  HostSystem 130.65.132.152 cpu cpu.usage percent 221 cpu.usagemhz megaHertz 106 
+2014-05-03 18:14:05 INFO  VirtualMachine VM02-Lin-Ling cpu cpu.usage percent 255 cpu.usagemhz megaHertz 57 
+2014-05-03 18:14:05 INFO  VirtualMachine VM02-Lin-Ling disk 
+2014-05-03 18:14:05 INFO  VirtualMachine VM02-Lin-Ling virtualDisk virtualDisk.readOIO number 0 virtualDisk.writeOIO number 0 
+2014-05-03 18:14:05 INFO  VirtualMachine VM02-Lin-Ling mem mem.usage percent 399 
+2014-05-03 18:14:21 INFO  VirtualMachine VM03-Lin-Ruiyun cpu cpu.usage percent -1 cpu.usagemhz megaHertz -1 
+2014-05-03 18:14:21 INFO  VirtualMachine VM03-Lin-Ruiyun disk 
+2014-05-03 18:14:21 INFO  VirtualMachine VM03-Lin-Ruiyun virtualDisk virtualDisk.readOIO number -1 virtualDisk.writeOIO number -1 
+2014-05-03 18:14:21 INFO  VirtualMachine VM03-Lin-Ruiyun mem mem.usage percent -1 
+2014-05-03 18:14:22 INFO  VirtualMachine VM-Lin-Elasticsearch disk 
+2014-05-03 18:14:22 INFO  VirtualMachine VM-Lin-Elasticsearch cpu cpu.usage percent -1 cpu.usagemhz megaHertz -1 
+2014-05-03 18:14:22 INFO  VirtualMachine VM-Lin-Elasticsearch mem mem.usage percent -1 
+2014-05-03 18:14:22 INFO  VirtualMachine VM-Lin-Elasticsearch virtualDisk virtualDisk.readOIO number -1 virtualDisk.writeOIO number -1 
+2014-05-03 18:14:24 INFO  HostSystem 130.65.132.151 cpu cpu.usage percent 97 cpu.usagemhz megaHertz 46 
+2014-05-03 18:14:24 INFO  HostSystem 130.65.132.151 disk disk.read kiloBytesPerSecond 0 disk.write kiloBytesPerSecond 0 
+2014-05-03 18:14:24 INFO  HostSystem 130.65.132.151 virtualDisk 
+2014-05-03 18:14:24 INFO  HostSystem 130.65.132.151 mem mem.usage percent 4476 
+2014-05-03 18:17:45 INFO  HostSystem 130.65.132.152 mem usage 7706 
+2014-05-03 18:17:45 INFO  HostSystem 130.65.132.152 disk read 12 write 13 
+2014-05-03 18:17:45 INFO  HostSystem 130.65.132.152 cpu usage 245 usagemhz 117 
+2014-05-03 18:17:45 INFO  VirtualMachine VM02-Lin-Ling cpu usage 270 usagemhz 60 
+2014-05-03 18:17:45 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:17:45 INFO  VirtualMachine VM02-Lin-Ling mem usage 299 
+2014-05-03 18:17:46 INFO  HostSystem 130.65.132.151 cpu usage 124 usagemhz 59 
+2014-05-03 18:17:46 INFO  HostSystem 130.65.132.151 disk read 12 write 13 
+2014-05-03 18:17:46 INFO  HostSystem 130.65.132.151 mem usage 4471 
+2014-05-03 18:17:46 INFO  HostSystem 130.65.132.153 mem usage 5396 
+2014-05-03 18:17:46 INFO  HostSystem 130.65.132.153 disk read 12 write 13 
+2014-05-03 18:17:46 INFO  HostSystem 130.65.132.153 cpu usage 215 usagemhz 103 
+2014-05-03 18:17:46 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:17:46 INFO  VirtualMachine VM01-Lin-Lan cpu usage 188 usagemhz 42 
+2014-05-03 18:17:46 INFO  VirtualMachine VM01-Lin-Lan mem usage 199 
+2014-05-03 18:17:52 INFO  HostSystem 130.65.132.152 mem usage 7706 
+2014-05-03 18:17:52 INFO  HostSystem 130.65.132.152 disk read 12 write 13 
+2014-05-03 18:17:52 INFO  HostSystem 130.65.132.152 cpu usage 245 usagemhz 117 
+2014-05-03 18:17:52 INFO  VirtualMachine VM02-Lin-Ling cpu usage 270 usagemhz 60 
+2014-05-03 18:17:52 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:17:52 INFO  VirtualMachine VM02-Lin-Ling mem usage 299 
+2014-05-03 18:17:52 INFO  HostSystem 130.65.132.151 cpu usage 124 usagemhz 59 
+2014-05-03 18:17:52 INFO  HostSystem 130.65.132.151 disk read 12 write 13 
+2014-05-03 18:17:52 INFO  HostSystem 130.65.132.151 mem usage 4471 
+2014-05-03 18:17:53 INFO  HostSystem 130.65.132.153 mem usage 5396 
+2014-05-03 18:17:53 INFO  HostSystem 130.65.132.153 disk read 12 write 13 
+2014-05-03 18:17:53 INFO  HostSystem 130.65.132.153 cpu usage 215 usagemhz 103 
+2014-05-03 18:17:53 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:17:53 INFO  VirtualMachine VM01-Lin-Lan cpu usage 188 usagemhz 42 
+2014-05-03 18:17:53 INFO  VirtualMachine VM01-Lin-Lan mem usage 199 
+2014-05-03 18:17:58 INFO  HostSystem 130.65.132.152 mem usage 7706 
+2014-05-03 18:17:58 INFO  HostSystem 130.65.132.152 disk read 12 write 13 
+2014-05-03 18:17:58 INFO  HostSystem 130.65.132.152 cpu usage 245 usagemhz 117 
+2014-05-03 18:17:58 INFO  VirtualMachine VM02-Lin-Ling cpu usage 270 usagemhz 60 
+2014-05-03 18:17:58 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:17:58 INFO  VirtualMachine VM02-Lin-Ling mem usage 299 
+2014-05-03 18:17:59 INFO  HostSystem 130.65.132.151 cpu usage 124 usagemhz 59 
+2014-05-03 18:17:59 INFO  HostSystem 130.65.132.151 disk read 12 write 13 
+2014-05-03 18:17:59 INFO  HostSystem 130.65.132.151 mem usage 4471 
+2014-05-03 18:17:59 INFO  HostSystem 130.65.132.153 mem usage 5396 
+2014-05-03 18:17:59 INFO  HostSystem 130.65.132.153 disk read 12 write 13 
+2014-05-03 18:17:59 INFO  HostSystem 130.65.132.153 cpu usage 215 usagemhz 103 
+2014-05-03 18:17:59 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO -1 writeOIO -1 
+2014-05-03 18:17:59 INFO  VirtualMachine VM01-Lin-Lan cpu usage -1 usagemhz -1 
+2014-05-03 18:17:59 INFO  VirtualMachine VM01-Lin-Lan mem usage -1 
+
+
+---------------------------------------------------------------------------
+
+2014-05-03 18:34:11 INFO  HostSystem 130.65.132.152 mem usage 77.19 
+2014-05-03 18:34:11 INFO  HostSystem 130.65.132.152 disk read 12 write 13 
+2014-05-03 18:34:11 INFO  HostSystem 130.65.132.152 cpu usage 3.0 
+2014-05-03 18:34:12 INFO  VirtualMachine VM02-Lin-Ling cpu usage 2.62 
+2014-05-03 18:34:12 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:34:12 INFO  VirtualMachine VM02-Lin-Ling mem usage 0.99 
+2014-05-03 18:34:14 INFO  HostSystem 130.65.132.151 cpu usage 1.03 
+2014-05-03 18:34:14 INFO  HostSystem 130.65.132.151 disk read 12 write 17 
+2014-05-03 18:34:14 INFO  HostSystem 130.65.132.151 mem usage 44.73 
+2014-05-03 18:34:15 INFO  HostSystem 130.65.132.153 mem usage 54.19 
+2014-05-03 18:34:15 INFO  HostSystem 130.65.132.153 disk read 12 write 13 
+2014-05-03 18:34:15 INFO  HostSystem 130.65.132.153 cpu usage 2.33 
+2014-05-03 18:34:18 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:34:18 INFO  VirtualMachine VM01-Lin-Lan cpu usage 1.78 
+2014-05-03 18:34:18 INFO  VirtualMachine VM01-Lin-Lan mem usage 2.99 
+2014-05-03 18:34:26 INFO  HostSystem 130.65.132.152 mem usage -0.01 
+2014-05-03 18:34:26 INFO  HostSystem 130.65.132.152 disk read -1 write -1 
+2014-05-03 18:34:26 INFO  HostSystem 130.65.132.152 cpu usage -0.01 
+2014-05-03 18:34:27 INFO  VirtualMachine VM02-Lin-Ling cpu usage 2.39 
+2014-05-03 18:34:27 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:34:27 INFO  VirtualMachine VM02-Lin-Ling mem usage 0.99 
+2014-05-03 18:34:29 INFO  HostSystem 130.65.132.151 cpu usage 1.43 
+2014-05-03 18:34:29 INFO  HostSystem 130.65.132.151 disk read 0 write 0 
+2014-05-03 18:34:29 INFO  HostSystem 130.65.132.151 mem usage 44.73 
+2014-05-03 18:34:32 INFO  HostSystem 130.65.132.153 mem usage 54.19 
+2014-05-03 18:34:32 INFO  HostSystem 130.65.132.153 disk read 0 write 0 
+2014-05-03 18:34:32 INFO  HostSystem 130.65.132.153 cpu usage 1.76 
+2014-05-03 18:34:37 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:34:37 INFO  VirtualMachine VM01-Lin-Lan cpu usage 1.74 
+2014-05-03 18:34:37 INFO  VirtualMachine VM01-Lin-Lan mem usage 0.99 
+2014-05-03 18:34:48 INFO  HostSystem 130.65.132.152 mem usage 77.17 
+2014-05-03 18:34:48 INFO  HostSystem 130.65.132.152 disk read 12 write 13 
+2014-05-03 18:34:48 INFO  HostSystem 130.65.132.152 cpu usage 2.32 
+2014-05-03 18:35:11 INFO  VirtualMachine VM02-Lin-Ling cpu usage 2.7 
+2014-05-03 18:35:11 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:35:11 INFO  VirtualMachine VM02-Lin-Ling mem usage 0.99 
+2014-05-03 18:35:15 INFO  HostSystem 130.65.132.151 cpu usage 1.4 
+2014-05-03 18:35:15 INFO  HostSystem 130.65.132.151 disk read 12 write 13 
+2014-05-03 18:35:15 INFO  HostSystem 130.65.132.151 mem usage 44.72 
+2014-05-03 18:35:18 INFO  HostSystem 130.65.132.153 mem usage 54.21 
+2014-05-03 18:35:18 INFO  HostSystem 130.65.132.153 disk read 12 write 13 
+2014-05-03 18:35:18 INFO  HostSystem 130.65.132.153 cpu usage 2.81 
+2014-05-03 18:35:20 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:35:20 INFO  VirtualMachine VM01-Lin-Lan cpu usage 1.85 
+2014-05-03 18:35:20 INFO  VirtualMachine VM01-Lin-Lan mem usage 0.99 
+2014-05-03 18:35:27 INFO  HostSystem 130.65.132.152 mem usage 77.16 
+2014-05-03 18:35:27 INFO  HostSystem 130.65.132.152 disk read 0 write 0 
+2014-05-03 18:35:27 INFO  HostSystem 130.65.132.152 cpu usage 3.11 
+2014-05-03 18:35:31 INFO  VirtualMachine VM02-Lin-Ling cpu usage 2.86 
+2014-05-03 18:35:31 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:35:31 INFO  VirtualMachine VM02-Lin-Ling mem usage 0.99 
+2014-05-03 18:35:34 INFO  HostSystem 130.65.132.151 cpu usage 2.11 
+2014-05-03 18:35:34 INFO  HostSystem 130.65.132.151 disk read 0 write 0 
+2014-05-03 18:35:34 INFO  HostSystem 130.65.132.151 mem usage 44.74 
+2014-05-03 18:35:37 INFO  HostSystem 130.65.132.153 mem usage 54.22 
+2014-05-03 18:35:37 INFO  HostSystem 130.65.132.153 disk read 0 write 0 
+2014-05-03 18:35:37 INFO  HostSystem 130.65.132.153 cpu usage 2.55 
+2014-05-03 18:35:39 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:35:39 INFO  VirtualMachine VM01-Lin-Lan cpu usage 1.81 
+2014-05-03 18:35:39 INFO  VirtualMachine VM01-Lin-Lan mem usage 2.99 
+2014-05-03 18:35:46 INFO  HostSystem 130.65.132.152 mem usage 77.16 
+2014-05-03 18:35:46 INFO  HostSystem 130.65.132.152 disk read 12 write 14 
+2014-05-03 18:35:46 INFO  HostSystem 130.65.132.152 cpu usage 3.74 
+2014-05-03 18:35:47 INFO  VirtualMachine VM02-Lin-Ling cpu usage 3.99 
+2014-05-03 18:35:47 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:35:47 INFO  VirtualMachine VM02-Lin-Ling mem usage 0.99 
+2014-05-03 18:35:49 INFO  HostSystem 130.65.132.151 cpu usage 1.46 
+2014-05-03 18:35:49 INFO  HostSystem 130.65.132.151 disk read 12 write 13 
+2014-05-03 18:35:49 INFO  HostSystem 130.65.132.151 mem usage 44.76 
+2014-05-03 18:35:51 INFO  HostSystem 130.65.132.153 mem usage 54.22 
+2014-05-03 18:35:51 INFO  HostSystem 130.65.132.153 disk read 12 write 16 
+2014-05-03 18:35:51 INFO  HostSystem 130.65.132.153 cpu usage 2.46 
+2014-05-03 18:35:52 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:35:52 INFO  VirtualMachine VM01-Lin-Lan cpu usage 2.08 
+2014-05-03 18:35:52 INFO  VirtualMachine VM01-Lin-Lan mem usage 2.99 
+2014-05-03 18:35:58 INFO  HostSystem 130.65.132.152 mem usage 77.16 
+2014-05-03 18:35:58 INFO  HostSystem 130.65.132.152 disk read 12 write 14 
+2014-05-03 18:35:58 INFO  HostSystem 130.65.132.152 cpu usage 3.74 
+2014-05-03 18:35:58 INFO  VirtualMachine VM02-Lin-Ling cpu usage 3.99 
+2014-05-03 18:35:58 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:35:58 INFO  VirtualMachine VM02-Lin-Ling mem usage 0.99 
+2014-05-03 18:36:01 INFO  HostSystem 130.65.132.151 cpu usage 1.46 
+2014-05-03 18:36:01 INFO  HostSystem 130.65.132.151 disk read 12 write 13 
+2014-05-03 18:36:01 INFO  HostSystem 130.65.132.151 mem usage 44.76 
+2014-05-03 18:36:04 INFO  HostSystem 130.65.132.153 mem usage 54.19 
+2014-05-03 18:36:04 INFO  HostSystem 130.65.132.153 disk read 12 write 13 
+2014-05-03 18:36:04 INFO  HostSystem 130.65.132.153 cpu usage 2.76 
+2014-05-03 18:36:08 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:36:08 INFO  VirtualMachine VM01-Lin-Lan cpu usage 1.91 
+2014-05-03 18:36:08 INFO  VirtualMachine VM01-Lin-Lan mem usage 3.99 
+2014-05-03 18:36:16 INFO  HostSystem 130.65.132.152 mem usage 77.16 
+2014-05-03 18:36:16 INFO  HostSystem 130.65.132.152 disk read 12 write 13 
+2014-05-03 18:36:16 INFO  HostSystem 130.65.132.152 cpu usage 3.83 
+2014-05-03 18:36:19 INFO  VirtualMachine VM02-Lin-Ling cpu usage 3.37 
+2014-05-03 18:36:19 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:36:19 INFO  VirtualMachine VM02-Lin-Ling mem usage 1.99 
+2014-05-03 18:36:21 INFO  HostSystem 130.65.132.151 cpu usage 1.32 
+2014-05-03 18:36:21 INFO  HostSystem 130.65.132.151 disk read 12 write 13 
+2014-05-03 18:36:21 INFO  HostSystem 130.65.132.151 mem usage 44.76 
+2014-05-03 18:36:21 INFO  HostSystem 130.65.132.153 mem usage 54.19 
+2014-05-03 18:36:21 INFO  HostSystem 130.65.132.153 disk read 0 write 0 
+2014-05-03 18:36:21 INFO  HostSystem 130.65.132.153 cpu usage 2.46 
+2014-05-03 18:36:24 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:36:24 INFO  VirtualMachine VM01-Lin-Lan cpu usage 1.93 
+2014-05-03 18:36:24 INFO  VirtualMachine VM01-Lin-Lan mem usage 3.99 
+2014-05-03 18:36:32 INFO  HostSystem 130.65.132.152 mem usage 77.18 
+2014-05-03 18:36:32 INFO  HostSystem 130.65.132.152 disk read 0 write 0 
+2014-05-03 18:36:32 INFO  HostSystem 130.65.132.152 cpu usage 2.81 
+2014-05-03 18:36:33 INFO  VirtualMachine VM02-Lin-Ling cpu usage 2.77 
+2014-05-03 18:36:33 INFO  VirtualMachine VM02-Lin-Ling virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:36:33 INFO  VirtualMachine VM02-Lin-Ling mem usage 1.99 
+2014-05-03 18:36:37 INFO  HostSystem 130.65.132.151 cpu usage 1.86 
+2014-05-03 18:36:37 INFO  HostSystem 130.65.132.151 disk read 0 write 0 
+2014-05-03 18:36:37 INFO  HostSystem 130.65.132.151 mem usage 44.72 
+2014-05-03 18:36:39 INFO  HostSystem 130.65.132.153 mem usage 54.19 
+2014-05-03 18:36:39 INFO  HostSystem 130.65.132.153 disk read 0 write 0 
+2014-05-03 18:36:39 INFO  HostSystem 130.65.132.153 cpu usage 2.46 
+2014-05-03 18:36:45 INFO  VirtualMachine VM01-Lin-Lan virtualDisk readOIO 0 writeOIO 0 
+2014-05-03 18:36:45 INFO  VirtualMachine VM01-Lin-Lan cpu usage 2.32 
+2014-05-03 18:36:45 INFO  VirtualMachine VM01-Lin-Lan mem usage 3.99 
