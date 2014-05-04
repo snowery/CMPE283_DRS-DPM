@@ -18,6 +18,8 @@ public class Manager {
 	protected ServiceInstance si;
 	private int high = 60;
 	private int low = 30;
+	private int overloadLasts = 5;
+	private int underloadLasts = 10;
 	
 	public Manager(ServiceInstance si) throws Exception {
 		this.si = si;
@@ -42,19 +44,19 @@ public class Manager {
 	
 	protected boolean isOverload (VHost host) throws Exception {
 		long total = host.totalCpuMhz();
-		long usage = host.cpuUsageMhz();
+		long usage = host.cpuUsageMhz(overloadLasts);
 		return (usage * 100.0 / total) > high;
 	}
 	
 	protected boolean isUnderload (VHost host) throws Exception {
 		long total = host.totalCpuMhz();
-		long usage = host.cpuUsageMhz();
+		long usage = host.cpuUsageMhz(underloadLasts);
 		return (usage * 100.0 / total) < low;
 	}
 	
 	protected boolean isOverloadAfterMigrate (VHost host, long adjustment) throws Exception {
 		long total = host.totalCpuMhz();
-		long usage = host.cpuUsageMhz() + adjustment;
+		long usage = host.cpuUsageMhz(overloadLasts) + adjustment;
 		return (usage * 100.0 / total) > high;
 	}
 	
