@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 
 import Instances.VHost;
 import Instances.VM;
+import Management.Manager;
 
 import com.vmware.vim25.mo.ServiceInstance;
 
@@ -32,9 +33,12 @@ public class DPM extends Manager implements Runnable{
 						e.printStackTrace();
 						log.warn("migration failed, please go to check your vCenter.");
 					}
+					
+					if(powerOff(underloadHost)){
+						removeVHost(underloadHost);
+					}		
 				}
 			}
-			
 			
 			try {
 				Thread.sleep(1000 * 3);
@@ -43,6 +47,24 @@ public class DPM extends Manager implements Runnable{
 				e.printStackTrace();
 			}
 		}
+	}
+	
+	/*
+	 * my assumption is that all vhost in the list are running
+	 * not running vhost will not be added in the list
+	 */
+	private boolean removeVHost(VHost vhost){
+		return vHosts.remove(vhost);
+	}
+	
+	/*
+	 * @A Lan, this function need to be implemented
+	 * We need super vCenter to power off vHost
+	 */
+	private boolean powerOff(VHost vhost){
+		//To do list
+		// should have follow function in your VHost class like this: vhost.poweroff();
+		return false;
 	}
 
 	private VHost getTargetVHost(VHost underloadVHostint, int adjustment) throws Exception {
@@ -77,7 +99,6 @@ public class DPM extends Manager implements Runnable{
 		try {
 			start();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
