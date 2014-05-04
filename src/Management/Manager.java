@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Instances.VHost;
+import Instances.VM;
 
 import com.vmware.vim25.mo.Folder;
 import com.vmware.vim25.mo.HostSystem;
@@ -66,10 +67,11 @@ public class Manager {
 		}
 		return temp;
 	}
+	
 	protected VHost getLowestUsageHost(List<VHost> hosts) throws Exception {
 		VHost h = null;
 		int i = 0;
-		double min = Double.MAX_VALUE;
+		long min = Long.MAX_VALUE;
 		while(i < hosts.size()) {
 			if(hosts.get(i).cpuUsageMhz() < min) {
 				min = hosts.get(i).cpuUsageMhz();
@@ -78,6 +80,20 @@ public class Manager {
 			i++;
 		}
 		return h;
+	}
+	
+	protected VM getLowestUsageVm(List<VM> vms) throws Exception {
+		VM v = null;
+		int i = 0;
+		long min = Long.MAX_VALUE;
+		while(i < vms.size()) {
+			if(vms.get(i).cpuUsageMhz() < min) {
+				min = vms.get(i).cpuUsageMhz();
+				v = vms.get(i);
+			}
+			i++;
+		}
+		return v;
 	}
 	
 	public void start() throws Exception{
