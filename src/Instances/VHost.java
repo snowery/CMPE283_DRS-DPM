@@ -38,7 +38,7 @@ public class VHost {
 	
 	public long totalCpuMhz() {
 		HostCpuInfo cpuInfo = host.getHardware().getCpuInfo();
-		return cpuInfo.getHz() * cpuInfo.getNumCpuCores() / 1024;
+		return cpuInfo.getHz() * cpuInfo.getNumCpuCores() / 1000000;
 	}
 	
 	public String getName() {
