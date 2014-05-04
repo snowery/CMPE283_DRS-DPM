@@ -113,8 +113,8 @@ public class PerfMgr {
 			}
 			events.get(key).add(event);
 		}
-		
-		//combine event entries by metric type
+
+		// combine event entries by metric type
 		for (String key : events.keySet()) {
 			String message = key + " ";
 			List<EventEntry> lst = events.get(key);

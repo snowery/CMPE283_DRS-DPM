@@ -18,7 +18,7 @@ public class EventEntry {
 	private String value;
 
 	public boolean isValid() {
-		return (value != null && value != "-1");
+		return (value != null && !value.startsWith("-"));
 	}
 
 	public String getEventKey() {
