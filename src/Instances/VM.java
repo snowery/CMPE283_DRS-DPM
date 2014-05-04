@@ -17,8 +17,13 @@ public class VM {
 		this.vm = vm;
 	}
 	
+	public long cpuUsageMhz(int mins) throws Exception {
+		return PerfMgr.getCpuAvg(vm, mins);
+	}
+	
+	//defualt method return the average cpu usage in last five minutes
 	public long cpuUsageMhz() throws Exception {
-		return PerfMgr.getCpuAvg(vm);
+		return PerfMgr.getCpuAvg(vm, 5);
 	}
 	
 	public long getLimit() {

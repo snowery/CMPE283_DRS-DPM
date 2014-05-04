@@ -20,8 +20,13 @@ public class VHost {
 		setVMs();
 	}	
 	
+	public long cpuUsageMhz(int mins) throws Exception {
+		return PerfMgr.getCpuAvg(host, mins);
+	}
+	
+	//defualt method return the average cpu usage in last five minutes
 	public long cpuUsageMhz() throws Exception {
-		return PerfMgr.getCpuAvg(host);
+		return PerfMgr.getCpuAvg(host, 5);
 	}
 	
 	public void setVMs() throws Exception {

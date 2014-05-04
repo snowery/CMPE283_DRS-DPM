@@ -45,7 +45,7 @@ public class PerfMgr {
 		System.out.println("Performance manager is set up.");
 	}
 
-	public static int getCpuAvg(ManagedEntity me) throws Exception {
+	public static int getCpuAvg(ManagedEntity me, int mins) throws Exception {
 		PerfProviderSummary pps = perfMgr.queryPerfProviderSummary(me);
 		Integer counterId = countersMap.get("cpu.usagemhz.average");
 		
@@ -58,7 +58,7 @@ public class PerfMgr {
 		int refreshRate = pps.getRefreshRate().intValue();
 		Calendar endTime = Calendar.getInstance();
 		Calendar startTime = (Calendar) endTime.clone();
-		startTime.add(Calendar.MINUTE, -5);
+		startTime.add(Calendar.MINUTE, -mins);
 		
 		PerfQuerySpec qSpec = new PerfQuerySpec();
 		qSpec.setEntity(me.getMOR());
