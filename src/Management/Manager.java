@@ -57,6 +57,29 @@ public class Manager {
 		return (usage * 100.0 / total) > high;
 	}
 	
+	protected List<VHost> tempHost (VHost host) {
+		List<VHost> temp = new ArrayList<VHost>();
+		for(int i=0; i<vHosts.size(); i++) {
+			if(host!=vHosts.get(i)) {
+				temp.add(vHosts.get(i));
+			}
+		}
+		return temp;
+	}
+	protected VHost getLowestUsageHost(List<VHost> hosts) throws Exception {
+		VHost h = null;
+		int i = 0;
+		double min = Double.MAX_VALUE;
+		while(i < hosts.size()) {
+			if(hosts.get(i).cpuUsageMhz() < min) {
+				min = hosts.get(i).cpuUsageMhz();
+				h = hosts.get(i);
+			}
+			i++;
+		}
+		return h;
+	}
+	
 	public void start() throws Exception{
 		
 	}
