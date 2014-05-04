@@ -24,9 +24,10 @@ public class DPM extends Manager implements Runnable{
 			VHost underloadHost = getUnderloadVhost();
 			if (underloadHost != null) {
 				VHost targetVHost = null;
-				// find the target vhost that to can support the vms from this vhost
+				// find the target vhost that can consolidate the vms on this vhost
 				targetVHost = getTargetVHost(underloadHost, getAdjustment(underloadHost));
 				if (targetVHost != null) {
+					// migrate all the vms on this vhost to the target vhost
 					List<VM> vms = underloadHost.getVMs();
 					try {
 						for (VM vm : vms)
@@ -35,6 +36,7 @@ public class DPM extends Manager implements Runnable{
 						e.printStackTrace();
 						log.warn("migration failed, please go to check your vCenter.");
 					}
+					// shut down this vhost
 					powerOff(underloadHost);
 				}
 			}
