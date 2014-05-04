@@ -34,9 +34,9 @@ public class DPM extends Manager implements Runnable{
 						log.warn("migration failed, please go to check your vCenter.");
 					}
 					
-					if(powerOff(underloadHost)){
+					/*if(powerOff(underloadHost)){
 						removeVHost(underloadHost);
-					}		
+					}*/		
 				}
 			}
 			
@@ -53,21 +53,17 @@ public class DPM extends Manager implements Runnable{
 	 * my assumption is that all vhost in the list are running
 	 * not running vhost will not be added in the list
 	 */
-	private boolean removeVHost(VHost vhost){
+/*	private boolean removeVHost(VHost vhost){
 		return vHosts.remove(vhost);
 	}
+	*/
 	
-	/*
-	 * @A Lan, this function need to be implemented
-	 * We need super vCenter to power off vHost
-	 */
-	private boolean powerOff(VHost vhost){
-		//To do list
-		// should have follow function in your VHost class like this: vhost.poweroff();
-		return false;
+	private boolean powerOff(VHost vhost) throws Exception{
+		return vhost.powerOff();
 	}
 
 	private VHost getTargetVHost(VHost underloadVHostint, int adjustment) throws Exception {
+		List<VHost> vHosts = getPoweredOnHosts();
 		for (int i = 0; i < vHosts.size(); ++i) {
 			if(underloadVHostint != vHosts.get(i)){
 				if (!isOverloadAfterMigrate(vHosts.get(i), adjustment)) {
@@ -87,6 +83,7 @@ public class DPM extends Manager implements Runnable{
 	}
 
 	private VHost getUnderloadVhost() throws Exception {
+		List<VHost> vHosts = getPoweredOnHosts();
 		for (int i = 0; i < vHosts.size(); ++i) {
 			if (this.isUnderload(vHosts.get(i))) {
 				return vHosts.get(i);

@@ -1,14 +1,20 @@
 package Instances;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
 
 import PerfStatCollect.PerfMgr;
 
 import com.vmware.vim25.HostCpuInfo;
+import com.vmware.vim25.InvalidState;
+import com.vmware.vim25.NotSupported;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.TaskInfo;
 import com.vmware.vim25.mo.HostSystem;
 import com.vmware.vim25.mo.InventoryNavigator;
 import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.Task;
 import com.vmware.vim25.mo.VirtualMachine;
 
 public class VHost {
@@ -27,6 +33,20 @@ public class VHost {
 	//defualt method return the average cpu usage in last five minutes
 	public long cpuUsageMhz() throws Exception {
 		return PerfMgr.getCpuAvg(host, 5);
+	}
+	
+	public boolean powerOff() throws Exception {
+		Task task = host.shutdownHost_Task(false);
+		
+		if (task.waitForTask() == Task.SUCCESS) {
+			System.out.println(host.getName() + " is powered off.");
+			return true;
+		} else {
+			System.out.println(host.getName() + " power off failed!");
+			TaskInfo info = task.getTaskInfo();
+			System.out.println(info.getError().getFault());
+		}
+		return false;
 	}
 	
 	public void setVMs() throws Exception {
