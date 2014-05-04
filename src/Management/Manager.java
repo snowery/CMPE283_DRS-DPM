@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Instances.VHost;
+
 import com.vmware.vim25.mo.Folder;
 import com.vmware.vim25.mo.HostSystem;
 import com.vmware.vim25.mo.InventoryNavigator;
@@ -38,25 +39,48 @@ public class Manager {
 		}
 	}
 	
-	protected boolean isOverload (VHost host) {
+	protected boolean isOverload (VHost host) throws Exception {
 		long total = host.totalCpuMhz();
 		long usage = host.cpuUsageMhz();
 		return (usage * 100.0 / total) > high;
 	}
 	
-	protected boolean isUnderload (VHost host) {
+	protected boolean isUnderload (VHost host) throws Exception {
 		long total = host.totalCpuMhz();
 		long usage = host.cpuUsageMhz();
 		return (usage * 100.0 / total) < low;
 	}
 	
-	protected boolean isOverloadAfterMigrate (VHost host, long adjustment) {
+	protected boolean isOverloadAfterMigrate (VHost host, long adjustment) throws Exception {
 		long total = host.totalCpuMhz();
 		long usage = host.cpuUsageMhz() + adjustment;
 		return (usage * 100.0 / total) > high;
 	}
 	
-	public void start(){
+	protected List<VHost> tempHost (VHost host) {
+		List<VHost> temp = new ArrayList<VHost>();
+		for(int i=0; i<vHosts.size(); i++) {
+			if(host!=vHosts.get(i)) {
+				temp.add(vHosts.get(i));
+			}
+		}
+		return temp;
+	}
+	protected VHost getLowestUsageHost(List<VHost> hosts) throws Exception {
+		VHost h = null;
+		int i = 0;
+		double min = Double.MAX_VALUE;
+		while(i < hosts.size()) {
+			if(hosts.get(i).cpuUsageMhz() < min) {
+				min = hosts.get(i).cpuUsageMhz();
+				h = hosts.get(i);
+			}
+			i++;
+		}
+		return h;
+	}
+	
+	public void start() throws Exception{
 		
 	}
 

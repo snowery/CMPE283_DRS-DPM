@@ -3,6 +3,8 @@ package Instances;
 import java.util.ArrayList;
 import java.util.List;
 
+import PerfStatCollect.PerfMgr;
+
 import com.vmware.vim25.HostCpuInfo;
 import com.vmware.vim25.mo.HostSystem;
 import com.vmware.vim25.mo.InventoryNavigator;
@@ -18,9 +20,8 @@ public class VHost {
 		setVMs();
 	}	
 	
-	public long cpuUsageMhz() {
-		//TODO
-		return 0;
+	public long cpuUsageMhz() throws Exception {
+		return PerfMgr.getCpuAvg(host);
 	}
 	
 	public void setVMs() throws Exception {
@@ -44,7 +45,8 @@ public class VHost {
 		return host.getName();
 	}	
 	
-	public List<VM> getVMs() {
+	public List<VM> getVMs() throws Exception {
+		setVMs();
 		return vms;
 	}
 	
