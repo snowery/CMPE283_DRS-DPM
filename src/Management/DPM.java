@@ -33,7 +33,7 @@ public class DPM extends Manager implements Runnable{
 						e.printStackTrace();
 						log.warn("migration failed, please go to check your vCenter.");
 					}
-					
+					powerOff(underloadHost);
 					/*if(powerOff(underloadHost)){
 						removeVHost(underloadHost);
 					}*/		
@@ -65,7 +65,7 @@ public class DPM extends Manager implements Runnable{
 	private VHost getTargetVHost(VHost underloadVHostint, int adjustment) throws Exception {
 		List<VHost> vHosts = getPoweredOnHosts();
 		for (int i = 0; i < vHosts.size(); ++i) {
-			if(underloadVHostint != vHosts.get(i)){
+			if(!underloadVHostint.getName().equals(vHosts.get(i).getName())){
 				if (!isOverloadAfterMigrate(vHosts.get(i), adjustment)) {
 					return vHosts.get(i);
 				}

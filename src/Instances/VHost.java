@@ -1,15 +1,11 @@
 package Instances;
 
-import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
 
 import PerfStatCollect.PerfMgr;
 
 import com.vmware.vim25.HostCpuInfo;
-import com.vmware.vim25.InvalidState;
-import com.vmware.vim25.NotSupported;
-import com.vmware.vim25.RuntimeFault;
 import com.vmware.vim25.TaskInfo;
 import com.vmware.vim25.mo.HostSystem;
 import com.vmware.vim25.mo.InventoryNavigator;
@@ -36,7 +32,7 @@ public class VHost {
 	}
 	
 	public boolean powerOff() throws Exception {
-		Task task = host.shutdownHost_Task(false);
+		Task task = host.shutdownHost_Task(true);
 		
 		if (task.waitForTask() == Task.SUCCESS) {
 			System.out.println(host.getName() + " is powered off.");
