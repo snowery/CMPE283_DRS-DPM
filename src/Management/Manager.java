@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Instances.VHost;
+
 import com.vmware.vim25.mo.Folder;
 import com.vmware.vim25.mo.HostSystem;
 import com.vmware.vim25.mo.InventoryNavigator;
@@ -38,25 +39,25 @@ public class Manager {
 		}
 	}
 	
-	protected boolean isOverload (VHost host) {
+	protected boolean isOverload (VHost host) throws Exception {
 		long total = host.totalCpuMhz();
 		long usage = host.cpuUsageMhz();
 		return (usage * 100.0 / total) > high;
 	}
 	
-	protected boolean isUnderload (VHost host) {
+	protected boolean isUnderload (VHost host) throws Exception {
 		long total = host.totalCpuMhz();
 		long usage = host.cpuUsageMhz();
 		return (usage * 100.0 / total) < low;
 	}
 	
-	protected boolean isOverloadAfterMigrate (VHost host, long adjustment) {
+	protected boolean isOverloadAfterMigrate (VHost host, long adjustment) throws Exception {
 		long total = host.totalCpuMhz();
 		long usage = host.cpuUsageMhz() + adjustment;
 		return (usage * 100.0 / total) > high;
 	}
 	
-	public void start(){
+	public void start() throws Exception{
 		
 	}
 

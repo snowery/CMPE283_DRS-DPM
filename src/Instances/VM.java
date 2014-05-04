@@ -1,5 +1,7 @@
 package Instances;
 
+import PerfStatCollect.PerfMgr;
+
 import com.vmware.vim25.TaskInfo;
 import com.vmware.vim25.VirtualMachineMovePriority;
 import com.vmware.vim25.mo.ComputeResource;
@@ -15,9 +17,8 @@ public class VM {
 		this.vm = vm;
 	}
 	
-	public long cpuUsageMhz() {
-		//TODO
-		return 0;
+	public long cpuUsageMhz() throws Exception {
+		return PerfMgr.getCpuAvg(vm);
 	}
 	
 	public long getLimit() {

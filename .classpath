@@ -2,24 +2,24 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/axis.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/axis2-ant-plugin-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/commons-discovery-0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/commons-httpclient-3.1-beta1.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/javacImpl-0.9.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/jaxrpc.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/jsp-api.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/mail.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/pingservice.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/saaj.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/serverpool.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/servlet-api.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/vijava2120100824.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/wsdl4j.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/KuaiPan/workspace-sjsu/CMPE283_DRS-DPM/jars/xml-apis.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/axis.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/axis2-ant-plugin-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/commons-httpclient-3.1-beta1.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/javacImpl-0.9.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/mail.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/pingservice.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/saaj.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/serverpool.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/vijava2120100824.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="/Users/lan/Documents/SJSU/Project/GitHub/CMPE283_DRS&amp;DPM/jars/xml-apis.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

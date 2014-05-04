@@ -17,7 +17,7 @@ public class DPM extends Manager implements Runnable{
 		super(si);
 
 	}
-	public void start()  {
+	public void start() throws Exception  {
 		while (true) {
 			VHost underloadHost = getUnderloadVhost();
 			if (underloadHost != null) {
@@ -45,7 +45,7 @@ public class DPM extends Manager implements Runnable{
 		}
 	}
 
-	private VHost getTargetVHost(VHost underloadVHostint, int adjustment) {
+	private VHost getTargetVHost(VHost underloadVHostint, int adjustment) throws Exception {
 		for (int i = 0; i < vHosts.size(); ++i) {
 			if(underloadVHostint != vHosts.get(i)){
 				if (!isOverloadAfterMigrate(vHosts.get(i), adjustment)) {
@@ -56,7 +56,7 @@ public class DPM extends Manager implements Runnable{
 		return null;
 	}
 
-	private int getAdjustment(VHost host) {
+	private int getAdjustment(VHost host) throws Exception {
 		int adm = 0;
 		for (VM vm : host.getVMs()) {
 			adm += vm.cpuUsageMhz();
@@ -64,7 +64,7 @@ public class DPM extends Manager implements Runnable{
 		return adm;
 	}
 
-	private VHost getUnderloadVhost() {
+	private VHost getUnderloadVhost() throws Exception {
 		for (int i = 0; i < vHosts.size(); ++i) {
 			if (this.isUnderload(vHosts.get(i))) {
 				return vHosts.get(i);
@@ -74,6 +74,11 @@ public class DPM extends Manager implements Runnable{
 	}
 	@Override
 	public void run() {
-		start();
+		try {
+			start();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

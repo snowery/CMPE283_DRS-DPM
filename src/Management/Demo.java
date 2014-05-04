@@ -2,6 +2,7 @@ package Management;
 
 import java.net.URL;
 
+import PerfStatCollect.PerfMgr;
 import PerfStatCollect.Setting;
 
 import com.vmware.vim25.mo.ServiceInstance;
@@ -15,6 +16,7 @@ public class Demo {
 		
 		Manager drs = new DRS(si);
 		Manager dpm = new DPM(si);
+		PerfMgr.setUp(si);
 		
 		drs.start();
 		dpm.start();

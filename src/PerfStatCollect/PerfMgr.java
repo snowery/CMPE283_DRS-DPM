@@ -1,6 +1,7 @@
 package PerfStatCollect;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 
@@ -44,6 +45,54 @@ public class PerfMgr {
 		System.out.println("Performance manager is set up.");
 	}
 
+	public static int getCpuAvg(ManagedEntity me) throws Exception {
+		PerfProviderSummary pps = perfMgr.queryPerfProviderSummary(me);
+		Integer counterId = countersMap.get("cpu.usagemhz.average");
+		
+		// set cpu metric
+		PerfMetricId metricId = new PerfMetricId();
+		metricId.setCounterId(counterId);
+		metricId.setInstance("*");
+		
+		// set query spec
+		int refreshRate = pps.getRefreshRate().intValue();
+		Calendar endTime = Calendar.getInstance();
+		Calendar startTime = (Calendar) endTime.clone();
+		startTime.add(Calendar.MINUTE, -5);
+		
+		PerfQuerySpec qSpec = new PerfQuerySpec();
+		qSpec.setEntity(me.getMOR());
+		qSpec.setMetricId(new PerfMetricId[] {metricId});
+		qSpec.setFormat("csv");
+		qSpec.setIntervalId(new Integer(refreshRate));
+		// set the time from which statistics are to be retrieved
+		qSpec.setStartTime(startTime);
+		qSpec.setEndTime(endTime);
+		
+		// query cpu usage in last 5 minutes		
+		PerfEntityMetricBase[] pValues = perfMgr
+				.queryPerf(new PerfQuerySpec[] { qSpec });
+		int total = 0;
+		int n = 0;
+		int avg = 0;
+		if (pValues != null) {
+			for (PerfEntityMetricBase pValue : pValues) {
+				PerfEntityMetricCSV pem = (PerfEntityMetricCSV) pValue;
+				PerfMetricSeriesCSV[] csvs = pem.getValue();
+				for (PerfMetricSeriesCSV csv : csvs) {
+					//System.out.println(csv.getValue());
+					String[] samples = csv.getValue().split(",");
+					
+					for (String s: samples) {
+						total += Integer.parseInt(s);
+						n++;
+					}
+				}
+			}
+			avg = total/n;
+		}
+		return avg;
+	}	
 	public static void getPerf(ManagedEntity me) throws Exception {
 		PerfProviderSummary pps = perfMgr.queryPerfProviderSummary(me);
 		int refreshRate = pps.getRefreshRate().intValue();
