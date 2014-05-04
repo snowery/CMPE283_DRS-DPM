@@ -3,8 +3,11 @@ package Instances;
 import PerfStatCollect.PerfMgr;
 
 import com.vmware.vim25.TaskInfo;
+import com.vmware.vim25.VirtualMachineCloneSpec;
 import com.vmware.vim25.VirtualMachineMovePriority;
+import com.vmware.vim25.VirtualMachineRelocateSpec;
 import com.vmware.vim25.mo.ComputeResource;
+import com.vmware.vim25.mo.Folder;
 import com.vmware.vim25.mo.HostSystem;
 import com.vmware.vim25.mo.Task;
 import com.vmware.vim25.mo.VirtualMachine;
@@ -65,5 +68,29 @@ public class VM {
 			System.out.println(info.getError().getFault());
 		}
 		return false;
+	}
+	
+	public boolean clone(VHost newhost) throws Exception {
+		VirtualMachineCloneSpec cloneSpec = new VirtualMachineCloneSpec();
+		VirtualMachineRelocateSpec locationSpec = new VirtualMachineRelocateSpec();
+		locationSpec.setHost(newhost.getHost().getMOR());
+
+		cloneSpec.setLocation(locationSpec);
+		cloneSpec.setPowerOn(false);
+		cloneSpec.setTemplate(false);
+
+		Task task = vm.cloneVM_Task((Folder) vm.getParent(), vm.getName()
+				+ "-Clone", cloneSpec);
+		System.out.println("Launching the VM clone task. " + "Please wait ...");
+
+		if (task.waitForTask() == Task.SUCCESS) {
+			System.out.println(getName() + ": VM got cloned successfully.");
+			return true;
+		} else {
+			System.out.println(getName() + ": VM cannot be cloned");
+			TaskInfo info = task.getTaskInfo();
+			System.out.println(info.getError().getFault());
+			return false;
+		}
 	}
 }

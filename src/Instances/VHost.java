@@ -41,8 +41,8 @@ public class VHost {
 			System.out.println(host.getName() + " power off failed!");
 			TaskInfo info = task.getTaskInfo();
 			System.out.println(info.getError().getFault());
+			return false;
 		}
-		return false;
 	}
 	
 	public void setVMs() throws Exception {

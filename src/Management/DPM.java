@@ -20,9 +20,11 @@ public class DPM extends Manager implements Runnable{
 	}
 	public void start() throws Exception  {
 		while (true) {
+			// find the vhost that cpu load is lower than the threshold
 			VHost underloadHost = getUnderloadVhost();
 			if (underloadHost != null) {
 				VHost targetVHost = null;
+				// find the target vhost that to can support the vms from this vhost
 				targetVHost = getTargetVHost(underloadHost, getAdjustment(underloadHost));
 				if (targetVHost != null) {
 					List<VM> vms = underloadHost.getVMs();
@@ -34,9 +36,6 @@ public class DPM extends Manager implements Runnable{
 						log.warn("migration failed, please go to check your vCenter.");
 					}
 					powerOff(underloadHost);
-					/*if(powerOff(underloadHost)){
-						removeVHost(underloadHost);
-					}*/		
 				}
 			}
 			
@@ -48,15 +47,6 @@ public class DPM extends Manager implements Runnable{
 			}
 		}
 	}
-	
-	/*
-	 * my assumption is that all vhost in the list are running
-	 * not running vhost will not be added in the list
-	 */
-/*	private boolean removeVHost(VHost vhost){
-		return vHosts.remove(vhost);
-	}
-	*/
 	
 	private boolean powerOff(VHost vhost) throws Exception{
 		return vhost.powerOff();
