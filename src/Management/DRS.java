@@ -15,7 +15,7 @@ public class DRS extends Manager {
 	
 	public void start() throws Exception {
 		System.out.println("List all virtual hosts: ");
-		
+		List<VHost>vHosts = getPoweredOnHosts();
 		for(int i=0; i<vHosts.size(); i++) {
 			VHost currentHost = vHosts.get(i); 									//get the current host
 			System.out.println("\n========================================================");
