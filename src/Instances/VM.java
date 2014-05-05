@@ -2,6 +2,7 @@ package Instances;
 
 import PerfStatCollect.PerfMgr;
 
+import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.TaskInfo;
 import com.vmware.vim25.VirtualMachineCloneSpec;
 import com.vmware.vim25.VirtualMachineMovePriority;
@@ -74,7 +75,8 @@ public class VM {
 		VirtualMachineCloneSpec cloneSpec = new VirtualMachineCloneSpec();
 		VirtualMachineRelocateSpec locationSpec = new VirtualMachineRelocateSpec();
 		locationSpec.setHost(newhost.getHost().getMOR());
-
+		locationSpec.setPool((ManagedObjectReference)newhost.getHost().getParent().getPropertyByPath("resourcePool"));
+		
 		cloneSpec.setLocation(locationSpec);
 		cloneSpec.setPowerOn(false);
 		cloneSpec.setTemplate(false);
