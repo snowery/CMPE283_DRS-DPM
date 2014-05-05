@@ -99,8 +99,20 @@ public class Manager {
 		return v;
 	}
 	
-	public void start() throws Exception{
+	public HostSystem getHostByName(String name) throws Exception {
+		Folder rootFolder = si.getRootFolder();
+		HostSystem vhost = (HostSystem) new InventoryNavigator(rootFolder).searchManagedEntity("HostSystem", name);
+		if(vhost==null)
+			return null;
+		else
+			return vhost;
+	}
+	
+	public void start() throws Exception {
 		
 	}
-
+	
+	public void doClone(String url, String username, String password, String vmname, String clonename, HostSystem hostSystem) throws Exception {
+		
+	}
 }

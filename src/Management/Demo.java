@@ -14,13 +14,14 @@ public class Demo {
 		ServiceInstance si = new ServiceInstance(new URL(Setting.VcenterUrl),
 				Setting.UserName, Setting.Password, true);
 		
-		//Manager drs = new DRS(si);
+		Manager drs = new DRS(si);
 		Manager dpm = new DPM(si);
+		Manager drs1 = new DRS1(si);
 		PerfMgr.setUp(si);
 		
 		//drs.start();
-		dpm.start();
-		
+		//dpm.start();
+		//drs1.start();
 	}
 
 }
